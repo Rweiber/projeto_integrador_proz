@@ -11,4 +11,5 @@ Nosso projeto tera como cliente as academias que quiserem sair frente e proporci
 
 Nosso projeto foi montado em equipe para o projetor integrador da PROZ EDUCAÇÃO, o integrantes são:
 #https://github.com/Rweiber - RENAN WEIBER
+
 #https://github.com/rafa0k - RAFAELA CAMILA SOARES
