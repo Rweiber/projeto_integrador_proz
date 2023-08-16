@@ -1,0 +1,33 @@
+div {
+    background-color: rgb(75, 75, 75);
+    font-size:30px;
+    padding: 35px;
+    margin: 24px;
+    border: 8px solid black;
+}
+h1 {
+    font:bold;
+    font-size: 40px;
+    color: rgb(255, 0, 149); 
+    text-align: center;
+}
+.caixa-de-cima {
+    background-color: rgb(236, 13, 13);
+    color: rgb(118, 184, 5);
+}
+.caixa-meio {
+    background-color: aqua;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    border: 20px solid black;
+}
+.caixa-de-baixo {
+    background-color: brown;
+    color: darkolivegreen;
+}
