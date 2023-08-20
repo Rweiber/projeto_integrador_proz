@@ -1,0 +1,8 @@
+img {
+  min-height: 100%;
+  background-image: url("C:\Users\diese\OneDrive\Área de Trabalho\PROZ\PROJETO INTEGRADOR\projeto_integrador_proz\HTML\img\plano de fundo.png"); /* substitua imagem.jpg pelo caminho de sua imagem */
+  background-size: cover; /* faz com que a imagem cubra todo o elemento */
+  background-repeat: no-repeat; /* evita que a imagem se repita */
+  background-position: center center; /* centraliza a imagem na horizontal e na vertical */
+  background-attachment: fixed; /* mantém a imagem fixa ao rolar a página */
+}
