@@ -56,31 +56,6 @@ footer {
   bottom: 0; /* Isso especifica que o footer deve ficar na parte de baixo do viewport */
   width: 100%; /* Isso faz com que o footer ocupe toda a largura do viewport */
 }
-
-#icones-redes-sociais {
-  /* Define a posição dos ícones como absoluta em relação ao footer */
-  position: absolute;
-  /* Define o alinhamento dos ícones à direita do footer */
-  right: 0;
-  /* Define o espaçamento dos ícones em relação à borda direita do footer como 10px */
-  margin-right: 10px;
-  /* Define o espaçamento dos ícones em relação à borda inferior do footer como 10px */
-  margin-bottom: 10px;
-  margin-top: 35px;
-}
-
-#icones-redes-sociais button {
-  /* Remove a borda dos botões dos ícones */
-  border: none;
-  /* Remove o fundo dos botões dos ícones */
-  background: none;
-}
-
-#icones-redes-sociais img {
-  /* Define a largura das imagens dos ícones como 30px */
-  width: 30px;
-}
-
 footer nav {
   /* Define a posição da navegação como absoluta em relação ao footer */
   position: absolute;
@@ -91,7 +66,7 @@ footer nav {
   /* Define o espaçamento da navegação em relação à borda superior do footer como 10px */
   margin-top: 35px;;
 
-}
+ }
 
 footer nav button {
   width: 150px; /* ajuste esse valor conforme sua preferência */
@@ -107,3 +82,29 @@ footer nav button {
 footer button {
   background: linear-gradient(to right, rgb(0, 128, 117), rgb(0, 174, 255)); /* cria um degradê de verde para verde limão */
   }
+
+
+#icones-redes-sociais {
+  /* Define a posição dos ícones como absoluta em relação ao footer */
+  position: absolute;
+  /* Define o alinhamento dos ícones à direita do footer */
+  right: 0;
+  /* Define o espaçamento dos ícones em relação à borda direita do footer como 10px */
+  margin-right: 10px;
+  /* Define o espaçamento dos ícones em relação à borda inferior do footer como 10px */
+  margin-bottom: 10px;
+  margin-top: 35px;
+
+}
+
+#icones-redes-sociais button {
+  /* Remove a borda dos botões dos ícones */
+  border: none;
+  /* Remove o fundo dos botões dos ícones */
+  background: none;
+}
+
+#icones-redes-sociais img {
+  /* Define a largura das imagens dos ícones como 30px */
+  width: 30px;
+}
