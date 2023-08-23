@@ -3,7 +3,7 @@ html {
   background-image: url("/HTML/img/plano\ de\ fundo.png");
   background-size: cover;
 }
-#logo-gif {
+.logo-gif {
   width: 200px; 
   height: auto;
 }
@@ -13,10 +13,6 @@ header {
   justify-content: space-between;
   background-color: rgba(211, 211, 211, 0.2);
   height:auto;
-}
-/* Define o estilo dos links que contêm os botões */
-a {
-  text-decoration: none; /* remove o sublinhado dos links */
 }
 
 /* Define o estilo dos botões */
@@ -29,21 +25,37 @@ header button {
   border:none; /* remove a borda dos botões */
   border-radius: 10px; /* deixa os botões arredondados */
   box-shadow: 5px 5px 5px rgba(0,0,0,0.4); /* adiciona uma sombra aos botões */
+  background: linear-gradient(to right, rgb(40, 128, 128), rgb(0, 174, 255));
+  border:outset lightblue;
+  border-width: 1.5px;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+MAIN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
-/* Define o estilo do botão de cadastrar */
-header button:nth-of-type(1) {
-  background: linear-gradient(to right, rgb(0, 128, 117), rgb(0, 174, 255)); /* cria um degradê de verde para verde limão */
-}
+MAIN DIV button {
+ background: none;
+ border: none;
+ padding: auto;
+ margin-left: -15px;
+ margin-right: -20px;
 
-/* Define o estilo do botão de login */
-header button:nth-of-type(2) {
-  background: linear-gradient(to right, blue, cyan); /* cria um degradê de azul para ciano */
+}
+MAIN img {
+  max-width: 20%;
 }
 
 /* Define o estilo dos botões quando o mouse passa sobre eles */
 button:hover {
-  transform: scale(1.1); /* aumenta um pouco o tamanho dos botões */
+  transform: scale(1.5); /* aumenta um pouco o tamanho dos botões */
+  transition: 0.5s;
+  cursor: pointer;
+  
 }
 footer {
   /* Define a altura do footer como 100px */
@@ -67,22 +79,20 @@ footer nav {
   margin-top: 35px;;
 
  }
-
 footer nav button {
   width: 150px; /* ajuste esse valor conforme sua preferência */
   height: 25px; /* ajuste esse valor conforme sua preferência */
   font-size: 15px; /* ajuste esse valor conforme sua preferência */
   font-weight: bold; /* deixa o texto em negrito */
-  border:none;
+  border:outset lightblue;
   color: white;
   border-radius:10px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
   justify-content: space-between;
+  margin: 0px 30px 0px 30px;
+  border-width:1.5px;
+  background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
 }
-footer button {
-  background: linear-gradient(to right, rgb(0, 128, 117), rgb(0, 174, 255)); /* cria um degradê de verde para verde limão */
-  }
-
 
 #icones-redes-sociais {
   /* Define a posição dos ícones como absoluta em relação ao footer */
@@ -90,10 +100,9 @@ footer button {
   /* Define o alinhamento dos ícones à direita do footer */
   right: 0;
   /* Define o espaçamento dos ícones em relação à borda direita do footer como 10px */
-  margin-right: 10px;
+  margin-right: 20px;
   /* Define o espaçamento dos ícones em relação à borda inferior do footer como 10px */
-  margin-bottom: 10px;
-  margin-top: 35px;
+  margin-top: 30px;
 
 }
 
@@ -107,4 +116,55 @@ footer button {
 #icones-redes-sociais img {
   /* Define a largura das imagens dos ícones como 30px */
   width: 30px;
+}
+a {
+  text-decoration: none; /* remove o sublinhado dos links */
+}
+h1 {
+  color: white;
+  font-size: 35px; /* ajuste esse valor conforme sua preferência */
+  font-weight: bold; /* deixa o texto em negrito */
+  margin-left: 40px;
+}
+h2 {
+  color: white;
+  font-size: 25px; /* ajuste esse valor conforme sua preferência */
+  font-weight: bold; /* deixa o texto em negrito */
+  margin-left: 40px;
+}
+h3 {
+  color: white;
+  font-size: 20px; /* ajuste esse valor conforme sua preferência */
+  font-weight: bold; /* deixa o texto em negrito */
+  margin-left: 40px;
+}
+main button {
+  width: 150px; /* ajuste esse valor conforme sua preferência */
+  height: 25px; /* ajuste esse valor conforme sua preferência */
+  font-size: 15px; /* ajuste esse valor conforme sua preferência */
+  font-weight: bold; /* deixa o texto em negrito */
+  border:outset lightblue;
+  color: white;
+  border-radius:10px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  justify-content: space-between;
+  margin: 0px 40px 0px 40px;
+  border-width:1.5px;
+  background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
+}
+.input-form {
+  /* Define a largura dos campos de entrada como 300px */
+  width: 300px;
+  /* Define a altura dos campos de entrada como 25px */
+  height: 25px;
+  /* Define a cor de fundo dos campos de entrada como branca */
+  background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
+  /* Define a cor do texto dos campos de entrada como preta */
+  color: black;
+  /* Define a borda dos campos de entrada como cinza claro */
+  border: px solid #fffefe;
+  margin-left: 40px;
+}
+::placeholder {
+  color: white;
 }

@@ -4,41 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Tela 2</title>
 </head>
 <body>
     <header>
-        <img src="/img/logo.png">
+        <img class="logo-gif" src="/HTML/img/GYM-HELP-unscreen.gif">
         <br>
-        <a href="/index.html"><button>Home</button></a>
+        <a href="/HTML/index.html"><button>Home</button></a>
     </header>
+       
     <main>
-        <h1> B E M V I N D O</h1>
-        <a href="/TELA LOGIN HTML/login.html"><button>Entrar</button></a>
-    </main>
-    <aside>
-        <h1>CRIAR CONTA</h1>
         <div>
-        <button><img src="/Tela 2 - HTML/images/download.png"></button>
-        <button><img src="/Tela 2 - HTML/images/linkedin (1).png"></button>
-        <button><img src="/Tela 2 - HTML/images/google.png"></button>
+            <h1> B E M V I N D O</h1>
+            <a href="/TELA LOGIN HTML/login.html"><button>Entrar</button></a>
+            <h2>CRIAR CONTA</h2>
+            <button><img src="/HTML/img/botao linkedin2.png"></button>
+            <button><img src="/HTML/img/botao face3.png"></button>
+            <button><img src="/HTML/img/botao insta3.png"></button>
         </div>
-        <h3>Ou adicione um email para registro</h3>
+        
         <div>
+            <h3>Ou adicione um email para registro</h3>
             <form>
                 <label for="nome"></label>
-                <input type="text" placeholder="Nome" name="nome">
+                <input type="text" placeholder="Nome" name="nome" class="input-form">
                 <br>
                 <label for="email"></label>
-                <input type="text" id="email" placeholder="Email">
+                <input type="text" id="email" placeholder="Email" class="input-form">
                 <br>
                 <label for="senha"></label>
-                <input type="text" id="senha" placeholder="Senha">
+                <input type="text" id="senha" placeholder="Senha" class="input-form">
                 <br>
-                <label for="senha"></label>
-                <input type="text" id="confirmar-senha" placeholder="Confirmar Senha">
-            </form>
+                <label for="confirmar-senha"></label>
+                <input type="text" id="confirmar-senha" placeholder="Confirmar Senha" class="input-form">
+              </form>
         </div>
-    </aside>    
+    </main> 
+    <footer>
+        <div id="icones-redes-sociais">
+            <a class="icones-redes-sociais" href="https://pt-br.facebook.com/"><button><img src="/HTML/img/botao face3.png"></button></a>
+            <a class="icones-redes-sociais" href="https://www.instagram.com/"><button><img src="/HTML/img/botao insta3.png"></button></a>
+            <a class="icones-redes-sociais"href="https://www.youtube.com/"><button><img src="/HTML/img/botao ytube3.png"></button></a>
+        
+        </div>
+        <div>
+            <nav>
+                <button>Área do parceiro</button>
+                
+                <button>Suporte</button>
+                <button>Sobre nós</button>
+            </nav>
+        </div>
+    </footer>   
 </body>
 </html>
