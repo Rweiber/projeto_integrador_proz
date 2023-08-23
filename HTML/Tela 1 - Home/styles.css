@@ -3,6 +3,9 @@ html {
   background-image: url("/HTML/img/plano\ de\ fundo.png");
   background-size: cover;
 }
+a {
+  text-decoration: none; /* remove o sublinhado dos links */
+}
 .logo-gif {
   width: 20%; 
   
@@ -75,7 +78,6 @@ footer nav button {
   border-width:1.5px;
   background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
 }
-
 #icones-redes-sociais {
   /* Define a posição dos ícones como absoluta em relação ao footer */
   position: absolute;
@@ -99,8 +101,3 @@ footer nav button {
   /* Define a largura das imagens dos ícones como 30px */
   width: 30px;
 }
-a {
-  text-decoration: none; /* remove o sublinhado dos links */
-}
-
-
