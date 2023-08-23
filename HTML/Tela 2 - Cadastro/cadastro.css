@@ -3,10 +3,7 @@ html {
     background-image: url("/HTML/img/plano\ de\ fundo.png");
     background-size: cover;
   }
-  .logo-gif {
-    width: 200px; 
-    height: auto;
-  }
+  
   a {
     text-decoration: none; /* remove o sublinhado dos links */
   }
@@ -17,7 +14,10 @@ html {
     background-color: rgba(211, 211, 211, 0.2);
     height:auto;
   }
-  
+  header img {
+    height: 170px;
+    width: 170px;
+  }
   /* Define o estilo dos botões */
   header button {
     width: 100px; /* ajuste esse valor conforme sua preferência */

@@ -6,16 +6,17 @@ html {
 a {
   text-decoration: none; /* remove o sublinhado dos links */
 }
-.logo-gif {
-  width: 20%; 
-  
-}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgba(211, 211, 211, 0.2);
   height:auto;
+}
+header img {
+  height: 170px;
+  width: 170px;
 }
 
 /* Define o estilo dos botões */
