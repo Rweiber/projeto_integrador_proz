@@ -7,6 +7,12 @@ Também adicionaremos ferramentas para auxiliar os alunos a realizarem os exerc�
 
 Nosso projeto tera como cliente as academias que quiserem sair frente e proporcionar mais conforto aos seus alunos. Quando um usuário logar em nosso sistema, já tera as informações propostas em sua tela, conseguindo assim, saber qual horário deve ir para o treino, qual grupo muscular treinará no dia e qual carga e numero de repetições está utilizando atualmente.
 
+# FERRAMENTAS UTILIZADAS
+
+° HTML
+° CSS
+° JAVASCRIPT
+
 # CREDITOS
 
 Nosso projeto foi montado em equipe para o projetor integrador da PROZ EDUCAÇÃO, o integrantes são:
