@@ -3,8 +3,13 @@ html {
   background-image: url("/HTML/img/plano\ de\ fundo.png");
   background-size: cover;
 }
+.logo-gif {
+  width: 200px; 
+  height: 200px;
+}
 a {
   text-decoration: none; /* remove o sublinhado dos links */
+
 }
 
 header {
