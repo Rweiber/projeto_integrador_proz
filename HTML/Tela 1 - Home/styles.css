@@ -1,5 +1,6 @@
 html {
   min-height: 100%;
+<<<<<<< HEAD
   background-image: url("/projeto_integrador_proz/HTML/img/plano\ de\ fundo.png");
   background-size: cover;
 }
@@ -7,16 +8,33 @@ html {
 .logo-gif {
   width: 200px; 
   height: auto;
+=======
+  background-image: url("/img/plano\ de\ fundo.png");
+  background-size: cover;
+}
+.logo-gif {
+  width: 200px; 
+  height: 200px;
+>>>>>>> 64e96b235b101429f2e06a27f694654c9d0e9d7a
 }
 a {
   text-decoration: none; /* remove o sublinhado dos links */
+
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 64e96b235b101429f2e06a27f694654c9d0e9d7a
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: rgba(211, 211, 211, 0.2);
   height:auto;
+}
+header img {
+  height: 170px;
+  width: 170px;
 }
 
 /* Define o estilo dos botões */
