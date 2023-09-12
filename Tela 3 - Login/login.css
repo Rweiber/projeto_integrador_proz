@@ -5,14 +5,17 @@ html {
 }
 .logo-gif {
   width: 200px; 
-  height: 200px;
+  height: auto;
+}
+BODY {
+  margin: 0 auto
 }
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: rgba(211, 211, 211, 0.2);
-  height:auto;
+  justify-content: space-between;/*POSIÇÃO DO ICONE OU INFORMAÇÃO*/
+  background-color: rgba(211, 211, 211, 0.2);  
+  height: auto; /* REFERENTE A BARRA DO CABEÇALHO*/
 }
 header img {
   width: 170px; 
@@ -58,21 +61,7 @@ h1 {
 a {
   text-decoration: none; /* remove o sublinhado dos links */
 }
-button {
-  width: 100px; /* ajuste esse valor conforme sua preferência */
-  height: 25px; /* ajuste esse valor conforme sua preferência */
-  font-size: 15px; /* ajuste esse valor conforme sua preferência */
-  font-weight: bold; /* deixa o texto em negrito */
-  color: white; /* define a cor do texto como branca */
-  border:none; /* remove a borda dos botões */
-  border-radius: 10px; /* deixa os botões arredondados */
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.4); /* adiciona uma sombra aos botões */
-  background: linear-gradient(to right, rgb(40, 128, 128), rgb(0, 174, 255));
-  border:outset lightblue;
-  border-width: 1.5px;
-  margin-left: 50px;
-  margin-right: 30px;
-  }
+
 button:hover {
   transform: scale(1.5); /* aumenta um pouco o tamanho dos botões */
   transition: 0.5s;
@@ -147,16 +136,13 @@ footer nav button {
   margin-right: 20px;
   /* Define o espaçamento dos ícones em relação à borda inferior do footer como 10px */
   margin-top: 30px;
-
 }
-
 #icones-redes-sociais button {
   /* Remove a borda dos botões dos ícones */
   border: none;
   /* Remove o fundo dos botões dos ícones */
   background: none;
 }
-
 #icones-redes-sociais img {
   /* Define a largura das imagens dos ícones como 30px */
   width: 30px;

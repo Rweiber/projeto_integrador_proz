@@ -5,7 +5,11 @@ html {
 }
 .logo-gif {
   width: 200px; 
-  height: 200px;
+  height: auto;
+}
+
+BODY {
+  margin: 0 auto
 }
 a {
   text-decoration: none; /* remove o sublinhado dos links */
