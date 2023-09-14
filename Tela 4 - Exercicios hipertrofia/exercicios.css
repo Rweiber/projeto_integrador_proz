@@ -90,10 +90,11 @@ main .diasemana {
     border-radius: 20px;
     height: 25px;
     width: 200px;
-    text-align: center;
+    
     font-size: 15px;
 
 }
+
 
 a {
     text-decoration: none;
