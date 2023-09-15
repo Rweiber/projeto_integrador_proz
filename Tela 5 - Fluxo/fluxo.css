@@ -42,11 +42,17 @@ html {
     align-items: center;
     justify-content: space-around;
     height: 100%; /* ajuste conforme necessário */
+    
 }
-  h1{
+  h1 {
   color: white;
   font-weight: bold; /* deixa o texto em negrito */
   text-align: center;
+  }
+  h4 {
+    color: white;
+    font-weight: bold; /* deixa o texto em negrito */
+    /*text-align: center;*/
   }
   .img{
     align-items: center;
