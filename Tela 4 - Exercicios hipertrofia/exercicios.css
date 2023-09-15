@@ -53,8 +53,8 @@ header button {
   }
 
 .titulo {
-    font-family: 'Roboto';
-    font-style: normal;
+    /* font-family: 'Roboto'; */
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 96px;
     text-align: center;
@@ -70,7 +70,7 @@ header button {
 main {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 100px;
     color: white;
     min-width: 1100px;
@@ -90,7 +90,7 @@ main .diasemana {
     border-radius: 20px;
     height: 25px;
     width: 200px;
-    
+   text-align: center;
     font-size: 15px;
 
 }
