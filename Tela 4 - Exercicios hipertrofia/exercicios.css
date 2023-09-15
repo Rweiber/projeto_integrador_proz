@@ -1,0 +1,111 @@
+html {
+    min-height: 100%;
+    background-image: url("/img/plano\ de\ fundo.png");
+    background-size: cover;
+}
+
+.logo-gif {
+    width: 200px;
+    height: auto;
+}
+
+BODY {
+    margin: 0 auto
+}
+
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(211, 211, 211, 0.2);
+    height: auto;
+}
+
+header img {
+    height: 170px;
+    width: 170px;
+}
+
+/* Define o estilo dos botões */
+header button {
+    width: 100px; /* ajuste esse valor conforme sua preferência */
+    height: 25px; /* ajuste esse valor conforme sua preferência */
+    font-size: 15px; /* ajuste esse valor conforme sua preferência */
+    font-weight: bold; /* deixa o texto em negrito */
+    color: white; /* define a cor do texto como branca */
+    border:none; /* remove a borda dos botões */
+    border-radius: 10px; /* deixa os botões arredondados */
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4); /* adiciona uma sombra aos botões */
+    background: linear-gradient(to right, rgb(40, 128, 128), rgb(0, 174, 255));
+    border:outset lightblue;
+    border-width: 1.5px;
+    margin-left: 50px;
+    margin-right: 30px;
+  }
+
+  .oc{
+    width:200px ;
+  }
+
+.titulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    text-align: center;
+    color: white;
+    border: 1px solid #000000;
+    border: none;
+}
+
+
+
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    min-width: 1100px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+main img {
+    height: 200px;
+    width: 150px;
+   
+}
+
+main .diasemana {
+    color: chartreuse;
+    background-color: black;
+    border-radius: 20px;
+    height: 25px;
+    width: 200px;
+    
+    font-size: 15px;
+
+}
+
+
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+
+}
+
+/* Define o estilo dos botões quando o mouse passa sobre eles */
+button:hover {
+    transform: scale(1.5);
+    /* aumenta um pouco o tamanho dos botões */
+    transition: 0.5s;
+    cursor: pointer;
+}
