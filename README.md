@@ -20,5 +20,5 @@ Nosso projeto foi montado em equipe para o projetor integrador da PROZ EDUCAÇÃ
 
 #https://github.com/rafa0k - RAFAELA CAMILA SOARES
 
-#https://github.com/GuiRamos11 - GUILHERME RAMOS
+#https://github.com/Silvino-Mendes - SILVINO MENDES
 # PROJETO_INTEGRADOR
