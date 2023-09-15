@@ -6,6 +6,7 @@ html {
   BODY {
     margin: 0 auto
   }
+  
   a {
     text-decoration: none; /* remove o sublinhado dos links */
   }
