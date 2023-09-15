@@ -1,0 +1,28 @@
+html {
+  background-image: url("/img/plano\ de\ fundo.png");
+  background-size: cover;
+  min-height: 100%;
+}
+BODY {
+  margin: 0 auto
+}
+.recuperar {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  button:hover {
+    transform: scale(1.5); /* aumenta um pouco o tamanho dos botões */
+    transition: 0.5s;
+    cursor: pointer;
+  }
