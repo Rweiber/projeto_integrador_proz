@@ -70,18 +70,18 @@ button:hover {
   transition: 0.5s;
   cursor: pointer;
 }
-input {
+/*input {
   width: 250px; /* Define a largura dos campos de entrada como 300px */
-  height: 25px;
+  /*height: 25px;
   margin-bottom: 30px;
   padding: 40px; /*a distância entre o elemento e as bordas da página!*/
-}
+/*}*/
 .container {
   display: block;
   flex-direction: column;
   align-items: center;
-  /*align-content: center;
-  justify-content: center;*/
+  align-content: center;
+  justify-content: center;
   width: 300s;
   border-radius: 20px;
   margin-left: 20px;
