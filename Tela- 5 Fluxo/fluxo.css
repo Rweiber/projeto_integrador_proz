@@ -1,7 +1,10 @@
 html {
-    min-height: 100%;
-    background-image: url("/img/plano\ de\ fundo.png");
-    background-size: cover;
+  min-height: 100%;
+  background-image: url("/img/plano\ de\ fundo.png");
+  background-size: cover;
+  }
+  BODY {
+    margin: 0 auto
   }
   .logo-gif {
     width: 200px; 
@@ -32,6 +35,14 @@ html {
     border-width: 1.5px;
     margin-left: 50px;
     margin-right: 30px;
+  }
+  h1{
+  color: white;
+  font-weight: bold; /* deixa o texto em negrito */
+  text-align: center;
+  }
+  .img{
+    align-items: center;
   }
 
   footer {
