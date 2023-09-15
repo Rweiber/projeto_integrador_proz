@@ -6,6 +6,12 @@ html {
 BODY {
   margin: 0 auto;
 }
+MAIN {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 150px auto;
+}
 header {
   display: flex;
   align-items: center;
