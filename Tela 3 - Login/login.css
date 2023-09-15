@@ -79,7 +79,7 @@ input {
   /* Define a cor de fundo dos campos de entrada como branca */
   background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
   /* Define a cor do texto dos campos de entrada como preta */
-  color: black;/* Define a borda dos campos de entrada como cinza claro */
+  /*color: black;/* Define a borda dos campos de entrada como cinza claro */
   border: px solid #fffefe;
   margin-left: 20px;
   margin-right: 20px;
@@ -117,7 +117,6 @@ button:hover {
 .id {
   color: white;
 }
-
 footer {
   /* Define a altura do footer como 100px */
   height: 100px;
