@@ -123,7 +123,7 @@ html {
     /* Define a cor de fundo dos campos de entrada como branca */
     background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
     /* Define a cor do texto dos campos de entrada como preta */
-    color: black;
+    color: white;
     /* Define a borda dos campos de entrada como cinza claro */
     border: px solid #fffefe;
   

@@ -36,17 +36,24 @@ html {
     margin-left: 50px;
     margin-right: 30px;
   }
+
   
   .grafico-barras {
-    width: 100%;
-    background: #f2f2f2;
+    width: 1200px;
+    background-color: rgba(211, 211, 211, 0.2);
     height: 300px;
-  }
+    margin: 50px auto; /* Isso substitui margin-top, margin-left e margin-right */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
   .grafico-barras .colunas {
     display: flex;
     flex-direction: row;
     height: 100%;
+    padding: 40px;
   }
 
   .grafico-barras .colunas .escala-y {
@@ -61,13 +68,10 @@ html {
 
   .grafico-barras .colunas .area-grafico .area-barras {
     flex-grow: 1;
-    border-left: 1px solid #d86a6a;
-    border-bottom: 1px solid #d86a6a;
     display: flex;
   }
 
   .grafico-barras .colunas .area-grafico .area-barras .divisao {
-    border: 1px solid red;
     width: calc(100% / 9);
     display: flex;
     align-items: flex-end;
@@ -79,15 +83,19 @@ html {
     border-radius: 10%;   
     border:outset lightblue;
     background: linear-gradient(to right, rgb(40, 128, 128), rgb(0, 174, 255)); ;
+    
   }
 
   .grafico-barras .colunas .area-grafico .escala-x {
-    width: calc(100% / 9);
     display: flex;
+    height: 80px;
+    color: white;
+    font-size: 22px;
   }
 
-  .grafico-barras .colunas .area-grafico .escala-x {
-    height: 80px;
+  .grafico-barras .colunas .area-grafico .escala-x .horarios {
+    width: calc(100% /9);
+    text-align: center;
   }
 
 
