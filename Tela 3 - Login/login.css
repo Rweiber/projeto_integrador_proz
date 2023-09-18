@@ -18,6 +18,7 @@ MAIN {
 }
 a {
   text-decoration: none; /* remove o sublinhado dos links */
+  color: white;
 }
 header {
   display: flex;
@@ -88,7 +89,7 @@ input {
 ::placeholder {
   color: white;
 }
-.center button {
+.center  {
   width: 150px; /* ajuste esse valor conforme sua preferência */
   height: 25px; /* ajuste esse valor conforme sua preferência */
   font-size: 15px; /* ajuste esse valor conforme sua preferência */
@@ -100,6 +101,8 @@ input {
   background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
   margin-bottom: 20px;
 }
+
+
  /* Define o estilo dos botões quando o mouse passa sobre eles */
 button:hover {
   transform: scale(1.5); /* aumenta um pouco o tamanho dos botões */
