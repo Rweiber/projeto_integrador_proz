@@ -45,6 +45,11 @@ header button {
 
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+}
 
 .carousel input {
   position: absolute;
@@ -55,10 +60,7 @@ header button {
 .carousel {
   width: 30%;
   height: 30%;
-  /* margin: 0 auto; */
-  margin-left: 1400px;
   margin-top: 80px;
-  
 }
 
 .carousel__stage {
