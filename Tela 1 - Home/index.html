@@ -15,9 +15,36 @@
             <a href="/Tela 3 - Login/login.html"><button>Login</button></a>
         </nav>
     </header>
-    <main>
-        <img src="/Tela 1 - Home/imagem/propaganda.png">
-    </main>    
+    <section class="carousel">
+        <input type="radio" name="carousel" id="carousel1" checked="checked" />
+        <input type="radio" name="carousel" id="carousel2" />
+        <input type="radio" name="carousel" id="carousel3" />
+        <input type="radio" name="carousel" id="carousel4" />
+      
+        <main class="carousel__stage">
+          <aside class="carousel__item">
+            <img class="carousel__image" src="/img/botao face3.png" />
+            <label for="carousel2" class="carousel__next carousel__control"></label>
+          </aside>
+      
+          <aside class="carousel__item">
+            <label for="carousel1" class="carousel__prev carousel__control"></label>
+            <img class="carousel__image" src="/img/botao insta3.png" />
+            <label for="carousel3" class="carousel__next carousel__control"></label>
+          </aside>
+      
+          <aside class="carousel__item">
+            <label for="carousel2" class="carousel__prev carousel__control"></label>
+            <img class="carousel__image" src="/img/botao ytube3.png" />
+            <label for="carousel4" class="carousel__next carousel__control"></label>
+          </aside>
+      
+          <aside class="carousel__item">
+            <label for="carousel3" class="carousel__prev carousel__control"></label>
+            <img class="carousel__image" src="/img/botao linkedin2.png" />
+          </aside>
+        </main>
+      </section>   
     <footer>
         <div id="icones-redes-sociais">
             <a class="icones-redes-sociais" href="https://pt-br.facebook.com/"><button><img src="/img/botao face3.png"></button></a>
