@@ -45,9 +45,9 @@ header button {
 
 }
 main {
+  display: flex;
+  justify-content: center;
   margin-top: 100px;
-  margin-left: 800px;
-  /*margin-right: 800px;*/
 }
 
 /* Define o estilo dos botões quando o mouse passa sobre eles */
