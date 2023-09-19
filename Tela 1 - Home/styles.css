@@ -46,7 +46,7 @@ header button {
 main {
   margin-top: 100px;
   margin-left: 800px;
-  margin-right: 800px;
+  /*margin-right: 800px;*/
 }
 
 /* Define o estilo dos botões quando o mouse passa sobre eles */
