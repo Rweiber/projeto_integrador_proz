@@ -1,15 +1,15 @@
 html {
   min-height: 100%;
-  background-image: url("/img/plano\ de\ fundo.png");
+  background-image: url("/img/plano\ de\ fundo\ -\ peb.png");
   background-size: cover;
 }
 .logo-gif {
-  width: 200px; 
-  height: auto;
+  width: 200px; /*largura*/
+  height: 200px; /*altura*/
 }
 
 BODY {
-  margin: 0 auto
+  margin: 0 auto;
 }
 a {
   text-decoration: none; /* remove o sublinhado dos links */
@@ -17,10 +17,10 @@ a {
 }
 header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: rgba(211, 211, 211, 0.2);
-  height:auto;
+  align-items: center; /*controla o alinhamento de todos os itens no eixo transversa*/
+  justify-content: space-between; /*alinha os elementos ao logo do eixo principal*/
+  background-color:  rgba(36, 36, 36, 0.863);
+  height: 60px;*/
 }
 header img {
   height: 170px;
@@ -29,16 +29,16 @@ header img {
 
 /* Define o estilo dos botões */
 header button {
+  
   width: 100px; /* ajuste esse valor conforme sua preferência */
   height: 25px; /* ajuste esse valor conforme sua preferência */
   font-size: 15px; /* ajuste esse valor conforme sua preferência */
   font-weight: bold; /* deixa o texto em negrito */
-  color: white; /* define a cor do texto como branca */
-  border:none; /* remove a borda dos botões */
+  color: black; /* define a cor do texto como branca */
+  border:1px; /* remove a borda dos botões */
   border-radius: 10px; /* deixa os botões arredondados */
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.4); /* adiciona uma sombra aos botões */
-  background: linear-gradient(to right, rgb(40, 128, 128), rgb(0, 174, 255));
-  border:outset lightblue;
+  box-shadow: 5px 5px 5px rgba(54, 233, 54, 0.4); /* adiciona uma sombra aos botões */
+  background: greenyellow;
   border-width: 1.5px;
   margin-left: 50px;
   margin-right: 30px;
@@ -150,9 +150,9 @@ button:hover {
 }
 footer {
   /* Define a altura do footer como 100px */
-  height: 100px;
+  height: 60px;
   /* Define a cor de fundo do footer como cinza claro */
-  background-color: rgba(211, 211, 211, 0.2);
+  background-color: rgba(36, 36, 36, 0.863);
   /* Define a posição do footer como relativa ao elemento pai */
   position: relative;
   position: fixed; /* Isso faz com que o footer fique fixo na posição especificada */
@@ -175,14 +175,14 @@ footer nav button {
   height: 25px; /* ajuste esse valor conforme sua preferência */
   font-size: 15px; /* ajuste esse valor conforme sua preferência */
   font-weight: bold; /* deixa o texto em negrito */
-  border:outset lightblue;
-  color: white;
+  /*border:outset rgba(36, 36, 36, 0.863);*/
+  color: black;
   border-radius:10px;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 5px rgba(54, 233, 54, 0.4); /* adiciona uma sombra aos botões */;
   justify-content: space-between;
   margin: 0px 30px 0px 30px;
   border-width:1.5px;
-  background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
+  background: greenyellow;
 }
 #icones-redes-sociais {
   /* Define a posição dos ícones como absoluta em relação ao footer */
