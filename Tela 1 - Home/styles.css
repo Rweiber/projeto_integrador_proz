@@ -20,7 +20,7 @@ header {
   align-items: center; /*controla o alinhamento de todos os itens no eixo transversa*/
   justify-content: space-between; /*alinha os elementos ao logo do eixo principal*/
   background-color:  rgba(36, 36, 36, 0.863);
-  height: 60px;*/
+  height: 60px;
 }
 header img {
   height: 170px;
@@ -45,10 +45,10 @@ header button {
 
 }
 
+
 .container {
   display: flex;
   justify-content: flex-end;
-  margin-right: 80px;
 }
 
 .carousel input {
