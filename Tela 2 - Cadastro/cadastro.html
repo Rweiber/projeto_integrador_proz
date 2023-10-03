@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Tela 2 - Cadastro/cadastro.css">
+    <link rel="stylesheet" href="/Tela 2 - Cadastro//cadastro2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
     <title>Tela 2</title>
 </head>
 <body>
-    <header>
-        <img class="logo-gif" src="/img/GYM-HELP-unscreen.gif">
-        <br>
-        <a href="/Tela 1 - Home/index.html"><button>Home</button></a>
-    </header>
-       
+    <div class="topper">
+        <header>
+            <img class="logo-gif" src="/img/gym help2.gif">
+            <br>
+            <a href="/Tela 1 - Home/index.html"><button>Home</button></a>
+        </header>
+    </div>   
     <main class="container">
         <div class="bem-vindo">
             <h1> B E M V I N D O</h1>
@@ -24,9 +28,9 @@
         
         <div class="criar-conta">
             <h1>CRIAR CONTA</h1>
-            <button><img src="/img/botao linkedin2.png"></button>
-            <button><img src="/img/botao face3.png"></button>
-            <button><img src="/img/botao insta3.png"></button>
+            <button class="botoes-conta"><img src="/img/botao linkedin2.png"></button>
+            <button class="botoes-conta"><img src="/img/botao face3.png"></button>
+            <button class="botoes-conta"><img src="/img/botao insta3.png"></button>
             <h3>Ou adicione um email para registro</h3>
 
             <form>
@@ -34,34 +38,36 @@
                 <input type="text" placeholder="Nome" name="nome" class="input-form">
                 <br>
                 <label for="email"></label>
-                <input type="text" id="email" placeholder="Email" class="input-form">
+                <input type="email" id="email" placeholder="Email" class="input-form">
                 <br>
                 <label for="senha"></label>
-                <input type="text" id="senha" placeholder="Senha" class="input-form">
+                <input type="password" id="senha" placeholder="Senha" class="input-form">
                 <br>
                 <label for="confirmar-senha"></label>
-                <input type="text" id="confirmar-senha" placeholder="Confirmar Senha" class="input-form">
+                <input type="password" id="confirmar-senha" placeholder="Confirmar Senha" class="input-form">
                 
             </form>
-            <a class="enviar" href="/Tela 3 - Login/login.html"><button>Enviar</button></a>
+            <button class="enviar"><a  href="/Tela 3 - Login/login.html">Enviar</a></button>
 
         </div>
         
         
-    </main> 
-    <footer>
-        <div id="icones-redes-sociais">
-            <a class="icones-redes-sociais" href="https://pt-br.facebook.com/"><button><img src="/img/botao face3.png"></button></a>
-            <a class="icones-redes-sociais" href="https://www.instagram.com/"><button><img src="/img/botao insta3.png"></button></a>
-            <a class="icones-redes-sociais"href="https://www.youtube.com/"><button><img src="/img/botao ytube3.png"></button></a>
-        
-        </div>
-        <div>
-            <nav>
-                <button>Área do parceiro</button>
-                <button>Suporte</button>
-                <a href="/Tela 10 - Sobre nos/sobre.html"><button>Sobre nós</button></a>
-            </nav>
-        </div>
-    </footer>   
+    </main>
+    <div> 
+        <footer>
+            <div id="icones-redes-sociais">
+                <a class="icones-redes-sociais" href="https://pt-br.facebook.com/"><button><img src="/img/botao face3.png"></button></a>
+                <a class="icones-redes-sociais" href="https://www.instagram.com/"><button><img src="/img/botao insta3.png"></button></a>
+                <a class="icones-redes-sociais"href="https://www.youtube.com/"><button><img src="/img/botao ytube3.png"></button></a>
+            
+            </div>
+            <div>
+                <nav>
+                    <button>Área do parceiro</button>
+                    <button>Suporte</button>
+                    <a href="/Tela 10 - Sobre nos/sobre.html"><button>Sobre nós</button></a>
+                </nav>
+            </div>
+        </footer>
+    </div>   
 </body>
