@@ -243,25 +243,5 @@ footer {
     cursor: pointer;
     transition: 0.5s;
   }
-  #icones-redes-sociais {
-    /* Define a posição dos ícones como absoluta em relação ao footer */
-    position: absolute;
-    /* Define o alinhamento dos ícones à direita do footer */
-    right: 0;
-    margin-right: 20px;
-    margin-top: 55px;
   
-  }
   
-  #icones-redes-sociais button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    
-  }
-  
-  #icones-redes-sociais img {
-    /* Define a largura das imagens dos ícones como 30px */
-    width: 30px;
-  }
- 

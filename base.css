@@ -51,57 +51,86 @@ header {
   
 /* ---------------footer----------------*/
 
-
-
   footer {
-    height: 100px;
-    background: linear-gradient(to top, #ffffff, #e6e4e4);
-    position: relative;
-    position: fixed;
-    bottom: 0; 
+    height: 300px;
+    background: linear-gradient(to top,#302b24, #575656);
     width: 100%; 
     border-top: 0 solid #302b24;
     margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 1px 1px 4px 1px #302b24; 
+    box-shadow: 1px 1px 4px 1px #302b24;
+    color: #e6e4e4;
 
   }
-  footer nav {
-    position: absolute;
-    /* Define o alinhamento da navegação ao centro do footer */
-    left: 50%;
-    /* Define o deslocamento da navegação em relação ao centro do footer como metade da sua largura */
-    transform: translateX(-50%);
-    margin-top: 55px;;
+  footer a {
+    text-decoration: none;
+  }
+
+  footer h2 {
+    margin-bottom: 30px;
+  }
+
+  footer ul {
+    list-style: none;
+    padding: 0 0;
+  }
+  footer ul a {
+    color: #e6e4e4;
+  }
+  footer li {
+    margin-bottom: 10px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .c1 {
+    border-right: 1px solid #e6e4e4;
+  }
+
+  .c2 {
+    border-right: 1px solid #e6e4e4;
+  }
+
+  .colfooter  {
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 30px;
+  }
   
-   }
-  footer nav button {
-    width: 150px; 
-    height: 25px; 
-    font-size: 15px; 
-    font-weight: bold;
-    border:outset #302b24;
-    color: #302b24;
-    border-radius:10px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
-    justify-content: space-between;
-    margin: 0px 30px 0px 30px;
-    border-width:1.5px;
+  .content2 {
+    display: flex;
+    justify-content: center
+    
   }
-  footer button:hover {
-    background: #ffbd59;
-    cursor: pointer;
-    transition: 0.5s;
+
+  .m-b-footer {
+    margin-left: 20px;
   }
-  #icones-redes-sociais {
-    /* Define a posição dos ícones como absoluta em relação ao footer */
-    position: absolute;
-    /* Define o alinhamento dos ícones à direita do footer */
-    right: 0;
-    margin-right: 20px;
+
+  .by {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+  .m-b-footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+  #icones-redes-sociais  {
+    margin-right: 0px;
     margin-top: 55px;
+    padding-left: 75px;
+    padding-right: 75px;
   
   }
+
+
   
   #icones-redes-sociais button {
     border: none;
@@ -114,4 +143,11 @@ header {
     /* Define a largura das imagens dos ícones como 30px */
     width: 30px;
   }
+
+  .icones-redes-sociais {
+    margin-right: 40px;
+  }
+ 
+  
+  
   

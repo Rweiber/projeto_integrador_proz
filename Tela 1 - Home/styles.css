@@ -1,17 +1,10 @@
 
 
-BODY {
-  margin: 0 auto;
-}
-a {
-  text-decoration: none; /* remove o sublinhado dos links */
-
-}
-
 
 .container {
   display: flex;
   justify-content: flex-end;
+  height: 68vh;
 }
 
 .carousel input {
@@ -22,8 +15,10 @@ a {
 
 .carousel {
   width: 30%;
-  height: 30%;
-  margin-top: 80px;
+  height: 85%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 80px;
 }
 
 .carousel__stage {
@@ -104,10 +99,3 @@ a {
   display: block;
 }
 
-/* Define o estilo dos botões quando o mouse passa sobre eles */
-button:hover {
-  transform: scale(1.5); /* aumenta um pouco o tamanho dos botões */
-  transition: 0.5s;
-  cursor: pointer;
-  
-}
