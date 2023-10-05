@@ -13,7 +13,7 @@ a {
   color: white;
 }
 .container {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #544c4c;
   border-radius: 20px;
   display: block;
   flex-direction: column;
@@ -27,6 +27,28 @@ form {
   flex-direction: column;
   margin-bottom: 30px;
 }
+.center button{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #dcd4c4;
+}
+::placeholder {
+  color: white;
+}
+.center button {
+  width: 150px; /* ajuste esse valor conforme sua preferência */
+  height: 25px; /* ajuste esse valor conforme sua preferência */
+  font-size: 15px; /* ajuste esse valor conforme sua preferência */
+  font-weight: bold; /* deixa o texto em negrito */
+  border:outset rgb(10, 10, 10);
+  border-width:1.5px;
+  border-radius:10px;
+  background: #dcd4c4;
+  margin-bottom: 25px;
+  
+}
+
 button:hover {
   transform: scale(1.5); /* aumenta um pouco o tamanho dos botões */
   transition: 0.5s;
@@ -40,19 +62,13 @@ input {
   width: 300px; /* Define a largura dos campos de entrada como 300px */
   height: 25px;
   text-align: center;
-  color: white;
-  /* Define a cor de fundo dos campos de entrada como branca */
-  background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
-  /* Define a cor do texto dos campos de entrada como preta */
-  /*color: black;/* Define a borda dos campos de entrada como cinza claro */
-  border: px solid #fffefe;
+  color: black;/* Define a cor do texto dos campos de entrada */ 
+  background: #dcccb4; /* Define a cor de fundo dos campos de entrada */
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 10px;
 }
-::placeholder {
-  color: white;
-}
+
 .center  {
   width: 150px; /* ajuste esse valor conforme sua preferência */
   height: 25px; /* ajuste esse valor conforme sua preferência */
@@ -62,7 +78,7 @@ input {
   color: white;
   border-width:1.5px;
   border-radius:10px;
-  background: linear-gradient(to right, rgb(40, 128, 128), rgb(13, 144, 204));
+  background:#dcccb4;
   margin-bottom: 20px;
 }
  /* Define o estilo dos botões quando o mouse passa sobre eles */

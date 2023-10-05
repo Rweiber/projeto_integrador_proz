@@ -1,9 +1,3 @@
-  html {
-    min-height: 100%;
-    background-image: url("/img/plano\ de\ fundo.png");
-    background-size: cover;
-    }
-  
   html, body {
     height: 100%;
     margin: 0;

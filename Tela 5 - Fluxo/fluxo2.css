@@ -1,0 +1,89 @@
+MAIN {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 150px auto;
+  }
+  H1 {
+    text-align: center;
+    color: orangered;
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 35px;
+  }
+.grafico-barras {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+  .grafico-barras .colunas {
+    display: flex;
+    width: 100%; /*area do grafico*/
+    flex-direction: row;
+    height: 100%;
+    /* padding: 40px; */
+    margin-top: 40px;
+  }
+
+  .grafico-barras .colunas .escala-y {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 22px;
+  }
+  .grafico-barras .colunas .escala-y .alunos {
+    height: calc((100% - 65px) / 6);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5px;
+  }
+
+  .grafico-barras .colunas .area-grafico {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grafico-barras .colunas .area-grafico .area-barras {
+    flex-grow: 1;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .grafico-barras .colunas .area-grafico .area-barras .divisao {
+    width: calc(100% / 9);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* margin-left: 10px; */
+  }
+
+  .grafico-barras .colunas .area-grafico .area-barras .divisao .barra {
+    width: 60%;
+    border-radius: 10%;   
+    border:outset lightblue;
+    background: orangered;
+  }
+
+  .grafico-barras .colunas .area-grafico .escala-x {
+    display: flex;
+    height: 80px;
+    color: white;
+    font-size: 22px;
+  }
+
+  .grafico-barras .colunas .area-grafico .escala-x .horarios {
+    width: calc(100% /9);
+    text-align: center;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+  }
+  
