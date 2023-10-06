@@ -1,19 +1,29 @@
-document.querySelector('.increase-reps').addEventListener('click', function() {
-    let reps = document.getElementById('reps');
-    reps.textContent = parseInt(reps.textContent) + 1;
-});
+window.onload = function() {
+    var repsButtons = document.querySelectorAll('.increase-reps, .decrease-reps');
+    var loadButtons = document.querySelectorAll('.increase-load, .decrease-load');
 
-document.querySelector('.decrease-reps').addEventListener('click', function() {
-    let reps = document.getElementById('reps');
-    reps.textContent = Math.max(parseInt(reps.textContent) - 1, 0);
-});
+    repsButtons.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var input = this.parentElement.querySelector('input[id^="reps"]');
+            var currentVal = parseInt(input.value, 10);
+            if (this.classList.contains('increase-reps')) {
+                input.value = currentVal + 1;
+            } else {
+                input.value = Math.max(0, currentVal - 1);
+            }
+        });
+    });
 
-document.querySelector('.increase-load').addEventListener('click', function() {
-    let load = document.getElementById('load');
-    load.textContent = parseInt(load.textContent) + 1;
-});
+    loadButtons.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var input = this.parentElement.querySelector('input[id^="load"]');
+            var currentVal = parseInt(input.value, 10);
+            if (this.classList.contains('increase-load')) {
+                input.value = currentVal + 1;
+            } else {
+                input.value = Math.max(0, currentVal - 1);
+            }
+        });
+    });
+};
 
-document.querySelector('.decrease-load').addEventListener('click', function() {
-    let load = document.getElementById('load');
-    load.textContent = Math.max(parseInt(load.textContent) - 1, 0);
-});
