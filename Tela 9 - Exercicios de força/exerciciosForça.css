@@ -5,23 +5,22 @@
     align-items: stretch;
   }
   
-  .carousel input {
+  input[type="radio"] {
     position: absolute;
-    left: -10000px;
-    
-  }
+    left: -9999px;
+}
   
   .carousel {
-    width: 30%;
+    width: 40%;
     height: 100%;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
     margin-right: 80px;
   }
   
   .carousel__stage {
     overflow: hidden;
-    font-size: 0;
+    font-size: 10;
     white-space: nowrap;
     width: 100%;
     height: 100%;
@@ -31,11 +30,15 @@
   
   .carousel__item {
     display: inline-flex;
+    justify-content: space-between;
     text-indent: 0;
     width: 100%;
     height: 100%;
-    
-  }
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+                inset -20px -20px 60px #ffffff;
+}
   
   .carousel__image {
     width: 100%;
@@ -96,4 +99,80 @@
   #carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4) .carousel__control {
     display: block;
   }
+ 
+.control-group > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px; /* This adds some space between your controls */
+  width: 30%;
+}
+.org {
+  display: flex;
   
+}
+
+h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+
+/* estilos de botoes */
+
+div button {
+  width: 20px; 
+  height: 20px; 
+  font-size: 15px; 
+  font-weight: bold; 
+  color: #302b24; 
+  border:1px solid #302b24; 
+  border-radius: 5px; 
+  margin-right: 5px;
+  
+  
+  
+}
+
+div button:hover {
+    background-color: #ffbd59;
+  cursor: pointer;
+  transition: 1s;
+   
+}
+
+ div input{
+  width: 40px; 
+  height: 25px; 
+  font-size: 30px; 
+  font-weight: bold; 
+  color: #302b24; 
+  border-radius: 10px; 
+  border:none;
+  text-align: center;
+  background-color: inherit;
+  margin-left: 10px;
+}
+div input:focus {
+  background: #ffbd59;
+}
+
+h3 {
+  margin-left: 128px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div .quantidade {
+  margin-bottom: 5px;
+}
+label {
+  font-size: 25px;
+}
