@@ -1,7 +1,7 @@
 .container {
     display: flex;
     justify-content: center;
-    height: 68vh;
+    height: 60vh;
     align-items: stretch;
   }
   
@@ -13,9 +13,7 @@
   .carousel {
     width: 40%;
     height: 100%;
-    /* margin-top: 10px; */
     margin-bottom: 40px;
-    /* margin-right: 80px; */
   }
   
   .carousel__stage {
@@ -129,7 +127,6 @@ h2 {
   margin-bottom: 0;
 }
 
-
 /* estilos de botoes */
 
 div button {
@@ -196,3 +193,4 @@ label {
 .repetir {
   margin-bottom: 0;
 }
+@med
