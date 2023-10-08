@@ -27,4 +27,36 @@ window.onload = function() {
     });
 };
 
+/*carrosel 1*/
+
+document.getElementById("myButton").addEventListener("click", function() {
+    var x = document.getElementById("mySection");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  });
+
+  /*carrosel 2*/
+
+  document.getElementById("myButton2").addEventListener("click", function() {
+    var x = document.getElementById("mySection2");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  });
+
+    /*carrosel 3*/
+
+  document.getElementById("myButton3").addEventListener("click", function() {
+    var x = document.getElementById("mySection3");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  });
 

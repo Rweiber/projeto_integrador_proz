@@ -20,14 +20,19 @@
         
     </nav>
     </header>
-    <h2 class="titulo">Treinos - Força</h2>
+    <section class="grupo-musc">
+        <h2 class="titulo"><button id="myButton"> COSTAS E BICEPS</button></h2>
+        <h2 class="titulo"><button id="myButton2"> PEITO E TRICEPS</button></h2>
+        <h2 class="titulo"><button id="myButton3"> OMBRO E ABDOMEN</button></h2>
+        <h2 class="titulo"><button id="myButton3"> PERNAS</button></h2>
+    </section>
 
     <main class="container">
-        <section class="carousel">
-            <input type="radio" name="carousel" id="carousel1" checked />
-            <input type="radio" name="carousel" id="carousel2" />
-            <input type="radio" name="carousel" id="carousel3" />
-            <input type="radio" name="carousel" id="carousel4" />
+        <section id="mySection" class="carousel1" style="display: none;">
+            <input type="radio" name="carousel1" id="carousel1" checked />
+            <input type="radio" name="carousel1" id="carousel2" />
+            <input type="radio" name="carousel1" id="carousel3" />
+            <input type="radio" name="carousel1" id="carousel4" />
         
             <main class="carousel__stage">
                 <aside class="carousel__item">
@@ -185,86 +190,173 @@
                 </aside>
             </main>
         </section>
-     <!-- <div class="terca">
-        <h2 class="diasemana">Terça - Feira </h2>
-        <h3 class="tituloexec">Supino Reto com Barra</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/supino-reto-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 35kg</h4>
-        <br>
-        <h3 class="tituloexec">Supino Inclinado</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/supino-inclinado-com-barra-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 40kg</h4>
-        <br>
-        <h3 class="tituloexec">Tríceps Na Polia</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/triceps-puxada-no-pulley-com-c-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 30kg</h4>
-        <br>
-        <h3 class="tituloexec">Tríceps Testa</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/rosca-triceps-testa-deitado-no-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 25kg</h4>
-        <br>
-    </div>
-    <hr>
-    <div class="quarta">
-        <h2 class="diasemana">Quarta - Feira</h2>
-        <h3 class="tituloexec">Elevação Lateral</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/elevacao-pelvica-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 20kg</h4>
-        <br>
-        <h3 class="tituloexec">Desenvol. com Halteres</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/Desenvolvimento-arnold-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 40kg</h4>
-        <br>
-        <h3 class="tituloexec">Prancha Abdominal</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/prancha_abdominal.gif">
-        <h4 class="repeticoes">6x12 - 4 Minuto</h4>
-        <br>
-        <h3 class="tituloexec">Abdominal Lateral</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/abdominal-obliquo-lateral-no-s-unscreen.gif">
-        <h4 class="repeticoes">6x12</h4>
-        <br>
-    </div>
-    <hr>
-    <div class="quinta">
-        <h2 class="diasemana">Quinta - Feira</h2>
-        <h3 class="tituloexec">Cadeira Abdutora</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/pernas-aducao-de-pernas-na-maq-unscreen11.gif">
-        <h4 class="repeticoes">6x12 - 95kg</h4>
-        <br>
-        <h3 class="tituloexec">Cadeira Flexora</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/flexora-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 55kg</h4>
-        <br>
-        <h3 class="tituloexec">Elevação Pélvica</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/elevacao-pelvica-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 35kg </h4>
-        <br>
-        <h3 class="tituloexec">Agachamento Sumo</h3>
-        <img src="/Tela 4 - Exercicios hipertrofia/images/sumo-unscreen.gif">
-        <h4 class="repeticoes">6x12 - 20kg</h4>
-        <br>
-    </div>
-    <hr>
-        <div class="sexta">
-            <h2 class="diasemana">Sexta - Feira</h2>
-            <h3 class="tituloexec">Agachamento Livre</h3>
-            <img src="/Tela 4 - Exercicios hipertrofia/images/agachamento-com-barra-unscreen.gif">
-            <h4 class="repeticoes">6x12 - 30kg</h4>
-            <br>
-            <h3 class="tituloexec">Cadeira Extensora</h3>
-            <img src="/Tela 4 - Exercicios hipertrofia/images/cadeira-extensora-extensora-unscreen1.gif">
-            <h4 class="repeticoes">6x12 - 55kg</h4>
-            <br>
-            <h3 class="tituloexec">Glúteo Na Polia</h3>
-            <img src="/Tela 4 - Exercicios hipertrofia/images/pernas-aducao-de-pernas-na-maq-unscreen.gif">
-            <h4 class="repeticoes">6x12 - 35kg </h4>
-            <br>
-            <h3 class="tituloexec">Agachamento Smith</h3>
-            <img src="/Tela 4 - Exercicios hipertrofia/images/agachamento-smith-unscreen.gif">
-            <h4 class="repeticoes">6x12 - 30kg</h4>
-            <br> 
-        </div>  --> 
-        </main>  
+
+            <!-- PEITO E TRICEPS -->
+
+            <section id="mySection2" class="carousel2" style="display: none;">
+                <input type="radio" name="carousel2" id="carousel21" checked />
+                <input type="radio" name="carousel2" id="carousel22" />
+                <input type="radio" name="carousel2" id="carousel23" />
+                <input type="radio" name="carousel2" id="carousel24" />
+            
+                <main class="carousel__stage">
+                    <aside class="carousel__item">
+                        
+                            <div class="org">
+                                <div class="item-content">
+                                    <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/supino-inclinado-com-barra-unscreen.gif" />
+                                </div>
+                                <div class="controls">
+                                    <div class="control-group">
+                                        <div>
+                                            <label>SERIES</label>
+                                        </div>
+                                        <div class="quantidade">
+                                            <button class="increase-reps1">+</button>
+                                            <button class="decrease-reps1">-</button>
+                                            <input type="text" id="reps1" value="0" readonly>
+                                        </div>
+                                        <div>
+                                            <label>REPETIÇÕES</label>
+                                        </div>  
+                                        <div class="repetir">
+                                            <button class="increase-reps1">+</button>
+                                            <button class="decrease-reps1">-</button>
+                                            <input type="text" id="reps1" value="0" readonly>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="control-group">
+                                        <div>
+                                            <label>PESO</label>                                     
+                                        </div>
+                                        <div>
+                                            <button class="increase-load1">+</button>                                    
+                                            <button class="decrease-load1">-</button>
+                                            <h5><input type="text" id="load1" value="0" readonly>KG</h5>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        <label for="carousel22" class="carousel__next2 carousel__control2"></label>
+                    </aside>
+                
+                    <aside class="carousel__item">
+                        <label for="carousel21" class="carousel__prev2 carousel__control2"></label>
+                        <div class="org">
+                            <div class="item-content">
+                                <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/supino-reto-unscreen.gif" />
+                            </div>
+                            <div class="controls">
+                            <div class="control-group">
+                                <div>
+                                    <label>Repetições:</label>
+                                </div>
+                                <div>
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                <div>
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                
+                            </div>
+                            <div class="control-group">
+                                <div>
+                                    <label>Carga:</label>                                     
+                                </div>
+                                <div>
+                                    <button class="increase-load1">+</button>                                    
+                                    <button class="decrease-load1">-</button>
+                                    <input type="text" id="load1" value="0" readonly>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        </div>
+                        <label for="carousel23" class="carousel__next2 carousel__control2"></label>
+                    </aside>
+                
+                    <aside class="carousel__item">
+                        <label for="carousel22" class="carousel__prev2 carousel__control2"></label>
+                        <div class="org">
+                            <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/rosca-triceps-testa-deitado-no-unscreen.gif" />
+                        </div>
+                        <div class="controls">
+                            <div class="control-group">
+                                <div>
+                                    <label>Repetições:</label>
+                                </div>
+                                <div>
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                <div>
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                
+                            </div>
+                            <div class="control-group">
+                                <div>
+                                    <label>Carga:</label>                                     
+                                </div>
+                                <div>
+                                    <button class="increase-load1">+</button>                                    
+                                    <button class="decrease-load1">-</button>
+                                    <input type="text" id="load1" value="0" readonly>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <label for="carousel24" class="carousel__next2 carousel__control2"></label>
+                    </aside>
+                
+                    <aside class="carousel__item">
+                        <label for="carousel23" class="carousel__prev2 carousel__control2"></label>
+                        <div class="org">
+                            <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/triceps-puxada-no-pulley-com-c-unscreen.gif" />
+                        </div>
+                        <div class="controls">
+                            <div class="control-group">
+                                <div>
+                                    <label>Repetições:</label>
+                                </div>
+                                <div>
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                <div>
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                
+                            </div>
+                            <div class="control-group">
+                                <div>
+                                    <label>Carga:</label>                                     
+                                </div>
+                                <div>
+                                    <button class="increase-load1">+</button>                                    
+                                    <button class="decrease-load1">-</button>
+                                    <input type="text" id="load1" value="0" readonly>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </aside>
+                </main>
+            </section>         
+        
+    </main>  
     
 </body>
 </html>
