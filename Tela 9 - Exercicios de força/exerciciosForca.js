@@ -27,36 +27,48 @@ window.onload = function() {
     });
 };
 
-/*carrosel 1*/
+// Lista de todos os carrosséis
+var carousels = ["mySection", "mySection2", "mySection3", "mySection4"];
 
+// Função para ocultar todos os carrosséis
+function hideAllCarousels() {
+    for (var i = 0; i < carousels.length; i++) {
+        var x = document.getElementById(carousels[i]);
+        x.style.display = "none";
+    }
+}
+
+// Função para exibir um carrossel específico
+function showCarousel(carouselId) {
+    hideAllCarousels();
+    var x = document.getElementById(carouselId);
+    x.style.display = "block";
+}
+
+// Adicione event listeners para cada botão
 document.getElementById("myButton").addEventListener("click", function() {
-    var x = document.getElementById("mySection");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+    showCarousel("mySection");
+});
+
+document.getElementById("myButton2").addEventListener("click", function() {
+    showCarousel("mySection2");
+});
+
+document.getElementById("myButton3").addEventListener("click", function() {
+    showCarousel("mySection3");
+});
+
+document.getElementById("myButton4").addEventListener("click", function() {
+    showCarousel("mySection4");
+});
+
+
+function showCarousel(carouselId) {
+    var x = document.getElementById(carouselId);
+    if (x.style.display === "block") {
+        x.style.display = "none";  // Se o carrossel já estiver visível, oculte-o
     } else {
-      x.style.display = "none";
+        hideAllCarousels();
+        x.style.display = "block";  // Se o carrossel não estiver visível, exiba-o
     }
-  });
-
-  /*carrosel 2*/
-
-  document.getElementById("myButton2").addEventListener("click", function() {
-    var x = document.getElementById("mySection2");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  });
-
-    /*carrosel 3*/
-
-  document.getElementById("myButton3").addEventListener("click", function() {
-    var x = document.getElementById("mySection3");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  });
-
+}
