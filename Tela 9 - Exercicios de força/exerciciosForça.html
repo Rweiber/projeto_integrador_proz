@@ -16,30 +16,75 @@
     <header>
         <img class="logo-gif" src="/img/gym help2.gif" autoplay muted loop></video>
         <nav>
-        <a href="/Tela 6 - tipo de treino/tipoDeTreino.html"><button class="home">Voltar</button></a>
-        
-    </nav>
+            <a href="/Tela 6 - tipo de treino/tipoDeTreino.html"><button class="home">Voltar</button></a>
+        </nav>
     </header>
-    <section class="grupo-musc">
-        <h2 class="titulo"><button id="myButton"> COSTAS E BICEPS</button></h2>
-        <h2 class="titulo"><button id="myButton2"> PEITO E TRICEPS</button></h2>
-        <h2 class="titulo"><button id="myButton3"> OMBRO E ABDOMEN</button></h2>
-        <h2 class="titulo"><button id="myButton4"> PERNAS</button></h2>
-    </section>
+    <nav class="grupo-musc">
+        <section class="musc1">
+            <h2 class="titulo"><button id="myButton"> COSTAS E BICEPS</button></h2>
+            <h2 class="titulo"><button id="myButton2"> PEITO E TRICEPS</button></h2>
+        </section>
+        <section class="musc2">
+            <h2 class="titulo"><button id="myButton3"> OMBRO E ABDOMEN</button></h2>
+            <h2 class="titulo"><button id="myButton4"> PERNAS</button></h2>
+        </section>
+    </nav>
 
     <main class="container">
-        <section id="mySection" class="carousel1" style="display: none;">
-            <input type="radio" name="carousel1" id="carousel1" checked />
-            <input type="radio" name="carousel1" id="carousel2" />
-            <input type="radio" name="carousel1" id="carousel3" />
-            <input type="radio" name="carousel1" id="carousel4" />
-        
-            <main class="carousel__stage">
-                <aside class="carousel__item">
-                    
+            <section id="mySection" class="carousel1" style="display: none;">
+                <input type="radio" name="carousel1" id="carousel1" checked />
+                <input type="radio" name="carousel1" id="carousel2" />
+                <input type="radio" name="carousel1" id="carousel3" />
+                <input type="radio" name="carousel1" id="carousel4" />
+            
+                <main class="carousel__stage">
+                    <aside class="carousel__item">
+                        
+                            <div class="org">
+                                <div class="item-content">
+                                    <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/rosca-biceps-martelo-com-halte-unscreen.gif" />
+                                </div>
+                                <div class="controls">
+                                    <div class="control-group">
+                                        <div>
+                                            <label>SERIES</label>
+                                        </div>
+                                        <div class="quantidade">
+                                            <button class="increase-reps1">+</button>
+                                            <button class="decrease-reps1">-</button>
+                                            <input type="text" id="reps1" value="0" readonly>
+                                        </div>
+                                        <div>
+                                            <label>REPETIÇÕES</label>
+                                        </div>  
+                                        <div class="repetir">
+                                            <button class="increase-reps1">+</button>
+                                            <button class="decrease-reps1">-</button>
+                                            <input type="text" id="reps1" value="0" readonly>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="control-group">
+                                        <div>
+                                            <label>PESO</label>                                     
+                                        </div>
+                                        <div class="carga">
+                                            <button class="increase-load1">+</button>                                    
+                                            <button class="decrease-load1">-</button>
+                                            <h5><input type="text" id="load1" value="0" readonly>KG</h5>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        <label for="carousel2" class="carousel__next carousel__control"></label>
+                    </aside>
+                
+                    <aside class="carousel__item">
+                        <label for="carousel1" class="carousel__prev carousel__control"></label>
                         <div class="org">
                             <div class="item-content">
-                                <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/rosca-biceps-martelo-com-halte-unscreen.gif" />
+                                <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/puxada_alta_aberta.gif" />
                             </div>
                             <div class="controls">
                                 <div class="control-group">
@@ -65,7 +110,7 @@
                                     <div>
                                         <label>PESO</label>                                     
                                     </div>
-                                    <div>
+                                    <div class="carga">
                                         <button class="increase-load1">+</button>                                    
                                         <button class="decrease-load1">-</button>
                                         <h5><input type="text" id="load1" value="0" readonly>KG</h5>
@@ -74,122 +119,90 @@
                                 </div>
                             </div>
                         </div>
-                    <label for="carousel2" class="carousel__next carousel__control"></label>
-                </aside>
-            
-                <aside class="carousel__item">
-                    <label for="carousel1" class="carousel__prev carousel__control"></label>
-                    <div class="org">
-                        <div class="item-content">
-                            <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/puxada_alta_aberta.gif" />
+                        </div>
+                        <label for="carousel3" class="carousel__next carousel__control"></label>
+                    </aside>
+                
+                    <aside class="carousel__item">
+                        <label for="carousel2" class="carousel__prev carousel__control"></label>
+                        <div class="org">
+                            <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/remada-baixa.gif" />
                         </div>
                         <div class="controls">
-                        <div class="control-group">
-                            <div>
-                                <label>Repetições:</label>
+                            <div class="control-group">
+                                <div>
+                                    <label>SERIES</label>
+                                </div>
+                                <div class="quantidade">
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                <div>
+                                    <label>REPETIÇÕES</label>
+                                </div>  
+                                <div class="repetir">
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                
                             </div>
-                            <div>
-                                <button class="increase-reps1">+</button>
-                                <button class="decrease-reps1">-</button>
-                                <input type="text" id="reps1" value="0" readonly>
+                            <div class="control-group">
+                                <div>
+                                    <label>PESO</label>                                     
+                                </div>
+                                <div class="carga">
+                                    <button class="increase-load1">+</button>                                    
+                                    <button class="decrease-load1">-</button>
+                                    <h5><input type="text" id="load1" value="0" readonly>KG</h5>
+                                </div>
+                                
                             </div>
-                            <div>
-                                <button class="increase-reps1">+</button>
-                                <button class="decrease-reps1">-</button>
-                                <input type="text" id="reps1" value="0" readonly>
-                            </div>
-                            
                         </div>
-                        <div class="control-group">
-                            <div>
-                                <label>Carga:</label>                                     
-                            </div>
-                            <div>
-                                <button class="increase-load1">+</button>                                    
-                                <button class="decrease-load1">-</button>
-                                <input type="text" id="load1" value="0" readonly>
-                            </div>
-                            
+                        <label for="carousel4" class="carousel__next carousel__control"></label>
+                    </aside>
+                
+                    <aside class="carousel__item">
+                        <label for="carousel3" class="carousel__prev carousel__control"></label>
+                        <div class="org">
+                            <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/rosca-biceps-no-cabo-unscreen.gif" />
                         </div>
-                    </div>
-                    </div>
-                    <label for="carousel3" class="carousel__next carousel__control"></label>
-                </aside>
-            
-                <aside class="carousel__item">
-                    <label for="carousel2" class="carousel__prev carousel__control"></label>
-                    <div class="org">
-                        <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/remada-baixa.gif" />
-                    </div>
-                    <div class="controls">
-                        <div class="control-group">
-                            <div>
-                                <label>Repetições:</label>
+                        <div class="controls">
+                            <div class="control-group">
+                                <div>
+                                    <label>SERIES</label>
+                                </div>
+                                <div class="quantidade">
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                <div>
+                                    <label>REPETIÇÕES</label>
+                                </div>  
+                                <div class="repetir">
+                                    <button class="increase-reps1">+</button>
+                                    <button class="decrease-reps1">-</button>
+                                    <input type="text" id="reps1" value="0" readonly>
+                                </div>
+                                
                             </div>
-                            <div>
-                                <button class="increase-reps1">+</button>
-                                <button class="decrease-reps1">-</button>
-                                <input type="text" id="reps1" value="0" readonly>
+                            <div class="control-group">
+                                <div>
+                                    <label>PESO</label>                                     
+                                </div>
+                                <div class="carga">
+                                    <button class="increase-load1">+</button>                                    
+                                    <button class="decrease-load1">-</button>
+                                    <h5><input type="text" id="load1" value="0" readonly>KG</h5>
+                                </div>
+                                
                             </div>
-                            <div>
-                                <button class="increase-reps1">+</button>
-                                <button class="decrease-reps1">-</button>
-                                <input type="text" id="reps1" value="0" readonly>
-                            </div>
-                            
                         </div>
-                        <div class="control-group">
-                            <div>
-                                <label>Carga:</label>                                     
-                            </div>
-                            <div>
-                                <button class="increase-load1">+</button>                                    
-                                <button class="decrease-load1">-</button>
-                                <input type="text" id="load1" value="0" readonly>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <label for="carousel4" class="carousel__next carousel__control"></label>
-                </aside>
-            
-                <aside class="carousel__item">
-                    <label for="carousel3" class="carousel__prev carousel__control"></label>
-                    <div class="org">
-                        <img class="carousel__image" src="/Tela 9 - Exercicios de força/images/rosca-biceps-no-cabo-unscreen.gif" />
-                    </div>
-                    <div class="controls">
-                        <div class="control-group">
-                            <div>
-                                <label>Repetições:</label>
-                            </div>
-                            <div>
-                                <button class="increase-reps1">+</button>
-                                <button class="decrease-reps1">-</button>
-                                <input type="text" id="reps1" value="0" readonly>
-                            </div>
-                            <div>
-                                <button class="increase-reps1">+</button>
-                                <button class="decrease-reps1">-</button>
-                                <input type="text" id="reps1" value="0" readonly>
-                            </div>
-                            
-                        </div>
-                        <div class="control-group">
-                            <div>
-                                <label>Carga:</label>                                     
-                            </div>
-                            <div>
-                                <button class="increase-load1">+</button>                                    
-                                <button class="decrease-load1">-</button>
-                                <input type="text" id="load1" value="0" readonly>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </aside>
-            </main>
-        </section>
+                    </aside>
+                </main>
+            </section>
 
             <!-- PEITO E TRICEPS -->
 
