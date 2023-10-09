@@ -25,13 +25,13 @@ html {
     opacity: 0.5; /* As divs que não estão com o mouse em cima ficam semi-transparentes */
   }
 .sobre {
-    background-color: #544c4c;
+    background-color: #302b24;
     border-radius: 20px;
     padding: 0px 40px 40px;
     flex-direction: column;
     text-align: center;
     margin: 0 240px; /* Ajuste o valor de acordo com o espaço desejado */
     transition: all 0.8s ease; /* Adiciona uma transição suave a todas as propriedades */
-    color: white;
+    color: #ffbd59;
 }
   
