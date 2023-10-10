@@ -1,9 +1,7 @@
-@media screen and (max-width :390px) {
-  header button {
-    margin-left: 20px;
-    width: 70px;
+  .foco {
+    display: flex;
+    justify-content: center;
   }
-}
   
   .container {
     display: flex;
@@ -21,44 +19,10 @@
     text-align: center;
     font-size: 60px;
     margin-bottom: 0;
-    margin-top: 0;
+    
   }
 
-  
-  
-  
-  label {
-    font-size: 25px;
-    margin: 0 auto;
-  }
 
-  @media screen and (max-width :390px) {
-    label {
-      font-size: 17px;
-      
-    }
-
-  .repetir {
-    margin-bottom: 0;
-  }
-  .grupo-musc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-top: -30px;
-  
-}
-
-.grupo-musc h2 {
-  margin: 10px; /* Ajuste este valor conforme necessário */
-}
-
-.musc1, .musc2 {
-  display: flex;
-}
-
-  
 /* carrosel 1 */
 
   .carousel1 {
@@ -550,4 +514,4 @@ h3 {
 
 div .quantidade {
   margin-bottom: 5px;
-}}
+}
