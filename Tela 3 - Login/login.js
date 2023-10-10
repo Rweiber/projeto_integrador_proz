@@ -1,21 +1,19 @@
-const $ = (elemento) => document.querySelector(elemento);
+document.querySelector('form').addEventListener('submit', function(event) {
+  event.preventDefault();
 
-$("#entrar").addEventListener("click", (ev) => {
-  ev.preventDefault();
+  var email = document.getElementById('email').value;
+  var senha = document.getElementById('senha').value;
 
-  const string = localStorage.getItem("usuario");
-  const usuarioCadastrado = JSON.parse(string);
-
-  const { login, senha } = usuarioCadastrado;
-
-  const dadosCorretos =
-    login === $("#login").value && senha === $("#senha").value;
-  console.log(dadosCorretos);
-
-  if (!dadosCorretos) {
-    alert("Dados inválidos!");
-    return;
+  if (!email) {
+      alert('Por favor, insira seu email.');
+      return false;
   }
 
-  window.location.href = "./logado.html";
+  if (!senha) {
+      alert('Por favor, insira sua senha.');
+      return false;
+  }
+
+  // Se tudo estiver ok, redirecione para a página desejada
+  window.location.href = "/Tela 9 - Exercicios de força/exerciciosForça.html";
 });
