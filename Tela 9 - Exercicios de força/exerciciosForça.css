@@ -1,6 +1,16 @@
   .foco {
     display: flex;
     justify-content: center;
+    height: 40px;
+    align-items: center;
+  }
+
+  @media screen and (max-width :390px) {
+    .foco { 
+      height: 100px; 
+      flex-direction: inherit;
+    } 
+    
   }
   
   .container {
@@ -8,6 +18,7 @@
     justify-content: center;
     height: 68vh;
     align-items: stretch;
+
   }
   
   input[type="radio"] {
@@ -26,7 +37,7 @@
 /* carrosel 1 */
 
   .carousel1 {
-    width: 40%;
+    width: 55%;
     height: 100%;
     margin-bottom: 40px;
   }
@@ -79,16 +90,20 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .controls {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 40%;
     background-color: #383e4b;
     color: #e0e0e0;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    
   }
 
   @media screen and (max-width :390px) {
@@ -107,42 +122,25 @@
   /*--------@medias --------*/
 
   @media screen and (max-width :2000px) { 
-    .container { 
-      height :68vh; 
-    } 
-  
+    
     .carousel1 { 
-      width :40%; 
+      width :45%; 
     } 
     
-    h2 { 
-      font-size :60px; 
-    } 
-  
     .controls { 
       width :40%; 
     } 
   
-    .carousel__control { 
-      font-size :1.5rem; 
-      padding: 5px;       
-    } 
-     .musc1, .musc2 {
-      display: inline;
-     }
-
-     h2 {
-      line-height: 0.2;
-     }
-  }
-
-  @media screen and (max-width :1400px) {
-    .titulo button {
-      width: 150px;
-      font-size: 13px;
-    }
     
   }
+
+  @media screen and (max-width :1400px) { 
+    
+    .carousel1 { 
+      width :50%; 
+    } 
+  }
+  
 
   @media screen and (max-width :390px) {
     .carousel1 { 
@@ -206,6 +204,21 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width :2000px) { 
+    
+  .carousel2 { 
+    width :40%; 
+  } 
+}
+
+@media screen and (max-width :390px) {
+  .carousel2 { 
+    width :95%; 
+  } 
+  
+}
+  
+
 .carousel__control2 {
   display: none;
   position: absolute;
@@ -259,38 +272,8 @@
 #carousel24:checked ~ .carousel__stage .carousel__item:nth-child(4) .carousel__control2 {
   display: block;
 }
-/*--------@medias --------*/
 
-@media screen and (max-width :1800px) { 
-  .container { 
-    height :65vh; 
-  } 
 
-  .carousel2 { 
-    width :55%; 
-  } 
-  
-  h2 { 
-    font-size :80px; 
-  } 
-
-  .controls { 
-    width :45%; 
-  } 
-
-  .carousel__control2 { 
-    font-size :1.5rem; 
-    padding: 5px;       
-  } 
-  
-}
-
-@media screen and (max-width :1400px) {
-  .titulo button {
-    width: 150px;
-    font-size: 10px;
-  }
-}
     /* -------@medias -------*/
 
 
@@ -300,6 +283,13 @@
   width:55%;
   height: 100%;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width :390px) {
+  .carousel3 { 
+    width :95%; 
+  } 
+  
 }
 
 .carousel__control3 {
@@ -364,6 +354,13 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width :390px) {
+  .carousel4 { 
+    width :95%; 
+  } 
+  
+}
+
 .carousel__control4 {
   display: none;
   position: absolute;
@@ -422,25 +419,72 @@
 
 /* estilos de botoes */
 
-H2 button {
-  width: 200px; 
-    height: 25px; /* ajuste esse valor conforme sua preferência */
-    font-size: 15px; /* ajuste esse valor conforme sua preferência */
-    font-weight: bold; /* deixa o texto em negrito */
-    color: #302b24; /* define a cor do texto como branca */
-    border:none; /* remove a borda dos botões */
-    border-radius: 10px; /* deixa os botões arredondados */
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.4); /* adiciona uma sombra aos botões */
-    background-color: inherit;
+section button {
+    width: 170px; 
+    height: 25px; 
+    font-size: 15px; 
+    font-weight: bold; 
+    color: #dddada; 
+    border:none; 
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.4); 
+    background-color: #302b24;
     border:outset #302b24;
     border-width: 1.5px;
     
 }
 
-H2 button:hover {
-  background: #ffbd59;
-  cursor: pointer;
-  transition: 0.5s;
+#myButton {
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+
+@media screen and (max-width :1350px) { 
+  .musc1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }  
+  #myButton {
+    margin-left: -4px;
+    border-radius: 0.8rem 0 0 0;
+  }
+
+  .musc2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  } 
+  
+  #myButton3 {
+    border-radius: 0 0.8rem 0 0;
+    margin-left: -4px;
+  }
+
+ 
+}
+
+
+#myButton2 {
+  margin-left: -4px;
+  border-radius: 0 0 0 0.8rem;
+}
+
+#myButton4 {
+  border-radius: 0 0.8rem 0.8rem 0;
+  margin-left: -4px;
+}
+
+@media screen and (max-width :1350px) {
+  #myButton4 {
+    border-radius: 0 0 0.8rem 0;
+    margin-left: -4px;
+}
+}
+
+section button:hover {
+  border: 2px solid #FFD43B;
+  box-shadow: 0px 0px 100px rgba(255, 212, 59, 0.5), 0px 0px 50px rgba(255, 102, 0, 0.5);
 }
 
 div button {
