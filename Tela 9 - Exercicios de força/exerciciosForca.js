@@ -45,7 +45,7 @@ function showCarousel(carouselId) {
     x.style.display = "block";
 }
 
-// Adicione event listeners para cada botão
+//Event listeners para cada botão
 document.getElementById("myButton").addEventListener("click", function() {
     showCarousel("mySection");
 });
