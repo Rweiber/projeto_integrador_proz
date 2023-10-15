@@ -15,5 +15,5 @@ document.querySelector('form').addEventListener('submit', function(event) {
   }
 
   // Se tudo estiver ok, redirecione para a página desejada
-  window.location.href = "/Tela 9 - Exercicios de força/exerciciosForça.html";
+  window.location.href = "/HTML/exerciciosForça.html";
 });

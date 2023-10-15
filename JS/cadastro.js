@@ -11,6 +11,6 @@ document.querySelector('.enviar').addEventListener('click', function(event) {
     } else if (senha !== confirmarSenha) {
         alert('As senhas não coincidem.');
     } else {
-        window.location.href = '/Tela 3 - Login/login.html';
+        window.location.href = '/HTML/login.html';
     }
 });
