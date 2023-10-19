@@ -1,3 +1,5 @@
+// Validção do formulario
+
 document.querySelector('form').addEventListener('submit', function(event) {
   event.preventDefault();
 
@@ -15,5 +17,5 @@ document.querySelector('form').addEventListener('submit', function(event) {
   }
 
   // Se tudo estiver ok, redirecione para a página desejada
-  window.location.href = "/HTML/exerciciosForca.html";
+  window.location.href = "/HTML/exercicios.html";
 });

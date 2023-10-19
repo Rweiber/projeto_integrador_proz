@@ -55,7 +55,7 @@ header {
   }
 
   @media screen and (max-width :700px) {
-    nav {
+    header nav {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -64,7 +64,7 @@ header {
   }
 
   @media screen and (max-width :375px) {
-    nav {
+    header nav {
       font-size: 7px;
       
     }
