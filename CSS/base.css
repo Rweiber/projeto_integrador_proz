@@ -2,7 +2,8 @@ body {
     margin: 0 auto;
     font-weight: bold; /* deixa o texto em negrito */
     font-family: 'Roboto', sans-serif;
-    background-color: #dddada
+    background-color: #dddada;
+    min-height: 100%;
 }
 .topper {
     height: 90%;
@@ -84,6 +85,7 @@ header {
     margin-top: 20px;
     box-shadow: 1px 1px 4px 1px #302b24;
     color: #e6e4e4;
+  
     
 
   }
@@ -104,6 +106,12 @@ header {
   }
   footer li {
     margin-bottom: 10px;
+  }
+
+  .rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .content {
@@ -217,4 +225,5 @@ header {
     width: 30px;
   }
 
+  
   
