@@ -2,36 +2,24 @@ html {
     min-height: 100%;
     background-size: cover;
   }
-  button:hover {
-    transform: scale(1.5); /* aumenta um pouco o tamanho dos botões */
-    transition: 0.5s;
-    cursor: pointer;
-  }
+  
   
   MAIN {
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     margin: 80px auto;
+    width: 100%;
   }
-  MAIN img {
-    max-width: 20%;
-  }
-  .main-content {
-    display: flex;
-    justify-content: space-around;
-  }
-  .main-content:hover .foco:not(:hover) {
-    opacity: 0.5; /* As divs que não estão com o mouse em cima ficam semi-transparentes */
-  }
+ 
+  
 .sobre {
-    background-color: #302b24;
-    border-radius: 20px;
+    background: linear-gradient(to top, #ffffff, #ebeaea);
     padding: 0px 40px 40px;
     flex-direction: column;
-    text-align: center;
-    margin: 0 240px; /* Ajuste o valor de acordo com o espaço desejado */
+    text-align: flex-start;
+    margin: 0 20px; /* Ajuste o valor de acordo com o espaço desejado */
     transition: all 0.8s ease; /* Adiciona uma transição suave a todas as propriedades */
-    color: #ffbd59;
+    color: #302b24;
+    width: 80%;
 }
   
