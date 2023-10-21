@@ -73,5 +73,27 @@ function recupSenha() {
 }
 
 function cadastrar() {
-  
+  document.querySelector('.enviar').addEventListener('click', function(event) {
+    event.preventDefault();
+    
+    var cadNome = document.getElementById('cadNome').value;
+    var cadEmail = document.getElementById('cadEmail').value;
+    var cadSenha = document.getElementById('cadSenha').value;
+    var confirmarSenha = document.getElementById('confirmar-senha').value;
+    
+    if (!cadNome || !cadEmail || !cadSenha || !confirmarSenha) {
+        alert('Por favor, preencha todos os campos.');
+    } else if (cadSenha !== confirmarSenha) {
+        alert('As senhas não coincidem.');
+    } else {
+        var novoCadastro = [{
+          nome: cadNome,
+          email: cadEmail,
+          senha: cadSenha
+        }];
+        this.bdLogin += novoCadastro;
+        console.log(bdLogin);
+        //window.location.href = '/HTML/login.html';
+    }
+  });
 }
