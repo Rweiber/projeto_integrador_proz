@@ -76,144 +76,144 @@ header {
   
 /* ---------------footer----------------*/
 
-  footer {
-    height: 100%;
-    background: linear-gradient(to top,#302b24, #575656);
-    width: 100%; 
-    border-top: 0 solid #302b24;
-    margin-top: 20px;
-    box-shadow: 1px 1px 4px 1px #302b24;
-    color: #e6e4e4;
-    
+footer {
+  height: 100%;
+  background: linear-gradient(to top,#302b24, #575656);
+  width: 100%; 
+  border-top: 0 solid #302b24;
+  margin-top: 20px;
+  box-shadow: 1px 1px 4px 1px #302b24;
+  color: #e6e4e4;
+}
 
-  }
-  footer a {
-    text-decoration: none;
-  }
+footer a {
+  text-decoration: none;
+}
 
-  footer h2 {
-    margin-bottom: 30px;
-  }
+footer h2 {
+  margin-bottom: 30px;
+}
 
-  footer ul {
-    list-style: none;
-    padding: 0 0;
-  }
-  footer ul a {
-    color: #e6e4e4;
-  }
-  footer li {
-    margin-bottom: 10px;
-  }
+footer ul {
+  list-style: none;
+  padding: 0 0;
+}
 
+footer ul a {
+  color: #e6e4e4;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  
+}
+@media screen and (max-width :920px) {
   .content {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
   }
-  @media screen and (max-width :920px) {
-    .content {
-      flex-direction: column;
-      align-items: center;
-      
-    }
-  }
+}
 
+.c1 {
+  border-right: 1px solid #e6e4e4;
+}
+
+@media screen and (max-width :920px) {
   .c1 {
-    border-right: 1px solid #e6e4e4;
+    border-bottom: 1px solid #e6e4e4;
+    border-right: none;
+    width: 240px;
+    text-align: center;
+    padding-bottom: 30px;
   }
+}
 
-  @media screen and (max-width :920px) {
-    .c1 {
-      border-bottom: 1px solid #e6e4e4;
-      border-right: none;
-      width: 240px;
-      text-align: center;
-      padding-bottom: 30px;
-    }
-  }
+.c2 {
+  border-right: 1px solid #e6e4e4;
+}
 
+@media screen and (max-width :920px) {
   .c2 {
-    border-right: 1px solid #e6e4e4;
+    border-bottom: 1px solid #e6e4e4;
+    border-right: none;
+    width: 240px;
+    text-align: center;
+    padding-bottom: 30px;
   }
-
-  @media screen and (max-width :920px) {
-    .c2 {
-      border-bottom: 1px solid #e6e4e4;
-      border-right: none;
-      width: 240px;
-      text-align: center;
-      padding-bottom: 30px;
-    }
-    }
+}
   
 
-  .colfooter  {
-    padding-left: 75px;
-    padding-right: 75px;
-    margin-top: 30px;
-  }
+.colfooter  {
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-top: 30px;
+}
 
 
+
+.content2 {
+  display: flex;
+  justify-content: center
   
-  .content2 {
-    display: flex;
-    justify-content: center
-    
-  }
+}
 
 
+.m-b-footer {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+@media screen and (max-width :375px) {
   .m-b-footer {
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 10px;
+    font-size: 8px
   }
+}
 
-  @media screen and (max-width :375px) {
-    .m-b-footer {
-      font-size: 8px
-    }
-  }
-
-  .by {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 10px;
-  }
-  @media screen and (max-width :375px) {
-
+.by {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+@media screen and (max-width :375px) {
   .by {
     font-size: 8px
   }
 }
 
-  #icones-redes-sociais  {
-    margin-right: 0px;
-    margin-top: 55px;
-    padding-left: 75px;
-    padding-right: 75px;
-  
-  }
+#icones-redes-sociais  {
+  margin-right: 0px;
+  margin-top: 55px;
+  padding-left: 75px;
+  padding-right: 75px;
 
-  @media screen and (max-width :920px) {
-    #icones-redes-sociais {
-      margin-bottom: 30px;
-    }
+}
+
+@media screen and (max-width :920px) {
+  #icones-redes-sociais {
+    margin-bottom: 30px;
   }
+}
 
 
   
-  #icones-redes-sociais button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    
-  }
+#icones-redes-sociais button {
+  border: none;
+  background: none;
+  cursor: pointer;
   
-  #icones-redes-sociais img {
-    /* Define a largura das imagens dos ícones como 30px */
-    width: 30px;
-  }
+}
+  
+#icones-redes-sociais img {
+  /* Define a largura das imagens dos ícones como 30px */
+  width: 30px;
+}
 
   
