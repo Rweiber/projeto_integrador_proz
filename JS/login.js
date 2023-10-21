@@ -27,7 +27,7 @@ function logar(){
     dadosSalvos = localStorage.getItem('dadosUsuario');
     
     if(dadosSalvos !== null){
-      bdLogin = JSON.parse(dadosSalvos);
+      this.bdLogin = JSON.parse(dadosSalvos);
     }    
     console.log(bdLogin);
     emailRec = bdLogin.filter((item) => {return item.email.includes(email)});
@@ -86,14 +86,15 @@ function cadastrar() {
     } else if (cadSenha !== confirmarSenha) {
         alert('As senhas não coincidem.');
     } else {
-        var novoCadastro = [{
+        novoCadastro = [{
           nome: cadNome,
           email: cadEmail,
           senha: cadSenha
         }];
-        this.bdLogin += novoCadastro;
-        console.log(bdLogin);
-        //window.location.href = '/HTML/login.html';
+        this.bdLogin = bdLogin.concat(novoCadastro);
+        console.log(this.bdLogin);
+        localStorage.setItem('dadosUsuario', JSON.stringify(this.bdLogin));
+        window.location.href = '/HTML/login.html';
     }
   });
 }
