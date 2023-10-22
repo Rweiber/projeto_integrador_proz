@@ -40,13 +40,7 @@ function logar(){
         senha === emailRec[0].senha){
         
         this.bdTreino = [
-          {email: email, treino:{
-                                  nome: '',
-                                  repsticoes: '',
-                                  series: '',
-                                  peso: ''
-                                }
-          }];
+          {email: email}];
 
         localStorage.setItem('dadosTreino', JSON.stringify(this.bdTreino));
         // Se tudo estiver ok, redirecione para a página desejada
@@ -114,71 +108,190 @@ function cadastrar() {
 
 function cadastroTreino() {
   // --------- COSTAS E BICEPS -----------
-  var serRoscaBicepsMartelo = document.getElementsByClassName('serRoscaBicepsMartelo').value;
-  var repRoscaBicepsMartelo = document.getElementsByClassName('repRoscaBicepsMartelo').value;
-  var pesRoscaBicepsMartelo = document.getElementsByClassName('pesRoscaBicepsMartelo').value;
+  var serRoscaBicepsMartelo = document.querySelector('.serRoscaBicepsMartelo').value;
+  var repRoscaBicepsMartelo = document.querySelector('.repRoscaBicepsMartelo').value;
+  var pesRoscaBicepsMartelo = document.querySelector('.pesRoscaBicepsMartelo').value;
 
-  var serPuxadaAltaAberta = document.getElementsByClassName('serRoscaBicepsMartelo').value;
-  var repPuxadaAltaAberta = document.getElementsByClassName('repRoscaBicepsMartelo').value;
-  var pesPuxadaAltaAberta = document.getElementsByClassName('pesRoscaBicepsMartelo').value;
+  var serPuxadaAltaAberta = document.querySelector('.serRoscaBicepsMartelo').value;
+  var repPuxadaAltaAberta = document.querySelector('.repRoscaBicepsMartelo').value;
+  var pesPuxadaAltaAberta = document.querySelector('.pesRoscaBicepsMartelo').value;
 
-  var serRemadaBaixa = document.getElementsByClassName('serRemadaBaixa').value;
-  var repRemadaBaixa = document.getElementsByClassName('repRemadaBaixa').value;
-  var pesRemadaBaixa = document.getElementsByClassName('pesRemadaBaixa').value;
+  var serRemadaBaixa = document.querySelector('.serRemadaBaixa').value;
+  var repRemadaBaixa = document.querySelector('.repRemadaBaixa').value;
+  var pesRemadaBaixa = document.querySelector('.pesRemadaBaixa').value;
 
-  var serRoscaBicepsCabo = document.getElementsByClassName('serRoscaBicepsCabo').value;
-  var repRoscaBicepsCabo = document.getElementsByClassName('repRoscaBicepsCabo').value;
-  var pesRoscaBicepsCabo = document.getElementsByClassName('pesRoscaBicepsCabo').value;
+  var serRoscaBicepsCabo = document.querySelector('.serRoscaBicepsCabo').value;
+  var repRoscaBicepsCabo = document.querySelector('.repRoscaBicepsCabo').value;
+  var pesRoscaBicepsCabo = document.querySelector('.pesRoscaBicepsCabo').value;
 
   // --------- PEITO E TRICEPS -----------
-  var serSupinoInclinadoBarra = document.getElementsByClassName('serSupinoInclinadoBarra').value;
-  var repSupinoInclinadoBarra = document.getElementsByClassName('repSupinoInclinadoBarra').value;
-  var pesSupinoInclinadoBarra = document.getElementsByClassName('pesSupinoInclinadoBarra').value;
+  var serSupinoInclinadoBarra = document.querySelector('.serSupinoInclinadoBarra').value;
+  var repSupinoInclinadoBarra = document.querySelector('.repSupinoInclinadoBarra').value;
+  var pesSupinoInclinadoBarra = document.querySelector('.pesSupinoInclinadoBarra').value;
 
-  var serSupinoReto = document.getElementsByClassName('serSupinoReto').value;
-  var repSupinoReto = document.getElementsByClassName('repSupinoReto').value;
-  var pesSupinoReto = document.getElementsByClassName('pesSupinoReto').value;
+  var serSupinoReto = document.querySelector('.serSupinoReto').value;
+  var repSupinoReto = document.querySelector('.repSupinoReto').value;
+  var pesSupinoReto = document.querySelector('.pesSupinoReto').value;
 
-  var serRoscaTricepsTesta = document.getElementsByClassName('serRoscaTricepsTesta').value;
-  var repRoscaTricepsTesta = document.getElementsByClassName('repRoscaTricepsTesta').value;
-  var pesRoscaTricepsTesta = document.getElementsByClassName('pesRoscaTricepsTesta').value;
+  var serRoscaTricepsTesta = document.querySelector('.serRoscaTricepsTesta').value;
+  var repRoscaTricepsTesta = document.querySelector('.repRoscaTricepsTesta').value;
+  var pesRoscaTricepsTesta = document.querySelector('.pesRoscaTricepsTesta').value;
 
-  var serTricepsPuxadaPulley = document.getElementsByClassName('serTricepsPuxadaPulley').value;
-  var repTricepsPuxadaPulley = document.getElementsByClassName('repTricepsPuxadaPulley').value;
-  var pesTricepsPuxadaPulley = document.getElementsByClassName('pesTricepsPuxadaPulley').value;
+  var serTricepsPuxadaPulley = document.querySelector('.serTricepsPuxadaPulley').value;
+  var repTricepsPuxadaPulley = document.querySelector('.repTricepsPuxadaPulley').value;
+  var pesTricepsPuxadaPulley = document.querySelector('.pesTricepsPuxadaPulley').value;
 
   // --------- OMBRO E ABDOMEN -----------
-  var serDesenvolvimentoArnold = document.getElementsByClassName('serDesenvolvimentoArnold').value;
-  var repDesenvolvimentoArnold = document.getElementsByClassName('repDesenvolvimentoArnold').value;
-  var pesDesenvolvimentoArnold = document.getElementsByClassName('pesDesenvolvimentoArnold').value;
+  var serDesenvolvimentoArnold = document.querySelector('.serDesenvolvimentoArnold').value;
+  var repDesenvolvimentoArnold = document.querySelector('.repDesenvolvimentoArnold').value;
+  var pesDesenvolvimentoArnold = document.querySelector('.pesDesenvolvimentoArnold').value;
 
-  var serOmbrosElevecao = document.getElementsByClassName('serOmbrosElevecao').value;
-  var repOmbrosElevecao = document.getElementsByClassName('repOmbrosElevecao').value;
-  var pesOmbrosElevecao = document.getElementsByClassName('pesOmbrosElevecao').value;
+  var serOmbrosElevacao = document.querySelector('.serOmbrosElevacao').value;
+  var repOmbrosElevacao = document.querySelector('.repOmbrosElevacao').value;
+  var pesOmbrosElevacao = document.querySelector('.pesOmbrosElevacao').value;
 
-  var serPranchaAbdominal = document.getElementsByClassName('serPranchaAbdominal').value;
-  var repPranchaAbdominal = document.getElementsByClassName('repPranchaAbdominal').value;
-  var pesPranchaAbdominal = document.getElementsByClassName('pesPranchaAbdominal').value;
+  var serPranchaAbdominal = document.querySelector('.serPranchaAbdominal').value;
+  var repPranchaAbdominal = document.querySelector('.repPranchaAbdominal').value;
+  var pesPranchaAbdominal = document.querySelector('.pesPranchaAbdominal').value;
 
-  var serAbdominalObliquo = document.getElementsByClassName('serAbdominalObliquo').value;
-  var repAbdominalObliquo = document.getElementsByClassName('repAbdominalObliquo').value;
-  var pesAbdominalObliquo = document.getElementsByClassName('pesAbdominalObliquo').value;
+  var serAbdominalObliquo = document.querySelector('.serAbdominalObliquo').value;
+  var repAbdominalObliquo = document.querySelector('.repAbdominalObliquo').value;
+  var pesAbdominalObliquo = document.querySelector('.pesAbdominalObliquo').value;
 
   // ---------     PERNAS      -----------
-  var serAgachamentoBarra = document.getElementsByClassName('serAgachamentoBarra').value;
-  var repAgachamentoBarra = document.getElementsByClassName('repAgachamentoBarra').value;
-  var pesAgachamentoBarra = document.getElementsByClassName('pesAgachamentoBarra').value;
+  var serAgachamentoBarra = document.querySelector('.serAgachamentoBarra').value;
+  var repAgachamentoBarra = document.querySelector('.repAgachamentoBarra').value;
+  var pesAgachamentoBarra = document.querySelector('.pesAgachamentoBarra').value;
 
-  var serElevacaoPelvica = document.getElementsByClassName('serElevacaoPelvica').value;
-  var repElevacaoPelvica = document.getElementsByClassName('repElevacaoPelvica').value;
-  var pesElevacaoPelvica = document.getElementsByClassName('pesElevacaoPelvica').value;
+  var serElevacaoPelvica = document.querySelector('.serElevacaoPelvica').value;
+  var repElevacaoPelvica = document.querySelector('.repElevacaoPelvica').value;
+  var pesElevacaoPelvica = document.querySelector('.pesElevacaoPelvica').value;
 
-  var serCadeiraExtensora = document.getElementsByClassName('serCadeiraExtensora').value;
-  var repCadeiraExtensora = document.getElementsByClassName('repCadeiraExtensora').value;
-  var pesCadeiraExtensora = document.getElementsByClassName('pesCadeiraExtensora').value;
+  var serCadeiraExtensora = document.querySelector('.serCadeiraExtensora').value;
+  var repCadeiraExtensora = document.querySelector('.repCadeiraExtensora').value;
+  var pesCadeiraExtensora = document.querySelector('.pesCadeiraExtensora').value;
 
-  var serFlexora = document.getElementsByClassName('serFlexora').value;
-  var repFlexora = document.getElementsByClassName('repFlexora').value;
-  var pesFlexora = document.getElementsByClassName('pesFlexora').value;
+  var serFlexora = document.querySelector('.serFlexora').value;
+  var repFlexora = document.querySelector('.repFlexora').value;
+  var pesFlexora = document.querySelector('.pesFlexora').value;
 
+  dadosEmail = [{
+    email: bdTreino.email
+  }];
+  dadosTreino = [
+    {
+      nome: 'COSTAS E BICEPS',
+      series: serRoscaBicepsMartelo,
+      repeticoes: repRoscaBicepsMartelo,
+      peso: pesRoscaBicepsMartelo
+    },
+    {
+      nome: 'COSTAS E BICEPS',
+      series: serPuxadaAltaAberta,
+      repeticoes: repPuxadaAltaAberta,
+      peso: pesPuxadaAltaAberta
+    },
+    {
+      nome: 'COSTAS E BICEPS',
+      series: serRemadaBaixa,
+      repeticoes: repRemadaBaixa,
+      peso: pesRemadaBaixa
+    },
+    {
+      nome: 'COSTAS E BICEPS',
+      series: serRoscaBicepsCabo,
+      repeticoes: repRoscaBicepsCabo,
+      peso: pesRoscaBicepsCabo
+    },
+    {
+      nome: 'PEITO E TRÍCEPS',
+      series: serSupinoInclinadoBarra,
+      repeticoes: repSupinoInclinadoBarra,
+      peso:pesSupinoInclinadoBarra
+    },
+    {
+      nome: 'PEITO E TRÍCEPS',
+      series: serSupinoReto,
+      repeticoes: repSupinoReto,
+      peso: pesSupinoReto
+    },
+    {
+      nome: 'PEITO E TRÍCEPS',
+      series: serRoscaTricepsTesta,
+      repeticoes: repRoscaTricepsTesta,
+      peso: pesRoscaTricepsTesta
+    },
+    {
+      nome: 'PEITO E TRÍCEPS',
+      series: serTricepsPuxadaPulley,
+      repeticoes: repTricepsPuxadaPulley,
+      peso: pesTricepsPuxadaPulley
+    },
+    {
+      nome: 'OMBRO E ABDOMÊN',
+      series: serDesenvolvimentoArnold,
+      repeticoes: repDesenvolvimentoArnold,
+      peso: pesDesenvolvimentoArnold
+    },
+    {
+      nome: 'OMBRO E ABDOMÊN',
+      series: serOmbrosElevacao,
+      repeticoes: repOmbrosElevacao,
+      peso: pesOmbrosElevacao
+    },
+    {
+      nome: 'OMBRO E ABDOMÊN',
+      series: serPranchaAbdominal,
+      repeticoes: repPranchaAbdominal,
+      peso: pesPranchaAbdominal
+    },
+    {
+      nome: 'OMBRO E ABDOMÊN',
+      series: serAbdominalObliquo,
+      repeticoes: repAbdominalObliquo,
+      peso: pesAbdominalObliquo
+    },
+    {
+      nome: 'PERNAS',
+      series: serAgachamentoBarra,
+      repeticoes: repAgachamentoBarra,
+      peso: pesAgachamentoBarra
+    },
+    {
+      nome: 'PERNAS',
+      series: serElevacaoPelvica,
+      repeticoes: repElevacaoPelvica,
+      peso: pesElevacaoPelvica
+    },
+    {
+      nome: 'PERNAS',
+      series: serCadeiraExtensora,
+      repeticoes: repCadeiraExtensora,
+      peso: pesCadeiraExtensora
+    },
+    {
+      nome: 'PERNAS',
+      series: serFlexora,
+      repeticoes: repFlexora,
+      peso: pesFlexora
+    },
+  ];
+  dadosSalvosTreino = localStorage.getItem('dadosTreino');
+  this.bdTreino = bdTreino.concat(JSON.parse(dadosSalvosTreino), dadosTreino);
+  localStorage.setItem('dadosTreino', JSON.stringify(this.bdTreino));
+  atualizedDB = localStorage.getItem('dadosTreino');
+  //console.log(atualizedDB);
+
+  baixarCSV(atualizedDB, "dados");
 }
+
+function baixarCSV(atualizedDB) {
+  const csv = atualizedDB;
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "Exercícios para hoje" + ".csv";
+  link.click();
+}
+
