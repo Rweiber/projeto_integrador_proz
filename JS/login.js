@@ -2,7 +2,7 @@
 
 document.querySelector('form').addEventListener('submit', function(event) {
   event.preventDefault();
-
+  logar();
 }); 
 
   bdLogin = [
@@ -44,13 +44,13 @@ function logar(){
         this.bdTreino = [
           {email: email}];
 
-        localStorage.setItem('dadosTreino', JSON.stringify(this.bdTreino));
+        localStorage.setItem('dadosUsuario', JSON.stringify(this.bdLogin));
         // Se tudo estiver ok, redirecione para a página desejada
         window.location.href = "/HTML/exerciciosForca.html";
     } else {
       alert('Email ou senha incorretos!');
     }
-    window.location.href = "/HTML/exerciciosForca.html";
+   // window.location.href = "/HTML/exerciciosForca.html";
   }
 }
 
