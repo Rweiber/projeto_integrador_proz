@@ -1,3 +1,6 @@
+// função para dar funcionalidade aos botões de aumentar e diminuir cargas e reps
+
+
 window.onload = function() {
     var repsButtons = document.querySelectorAll('.increase-reps1, .decrease-reps1');
     var loadButtons = document.querySelectorAll('.increase-load1, .decrease-load1');
@@ -31,6 +34,7 @@ window.onload = function() {
 var carousels = ["mySection", "mySection2", "mySection3", "mySection4"];
 
 // Função para ocultar todos os carrosséis
+
 function hideAllCarousels() {
     for (var i = 0; i < carousels.length; i++) {
         var x = document.getElementById(carousels[i]);
@@ -39,6 +43,7 @@ function hideAllCarousels() {
 }
 
 // Função para exibir um carrossel específico
+
 function showCarousel(carouselId) {
     hideAllCarousels();
     var x = document.getElementById(carouselId);
@@ -46,6 +51,7 @@ function showCarousel(carouselId) {
 }
 
 //Event listeners para cada botão
+
 document.getElementById("myButton").addEventListener("click", function() {
     showCarousel("mySection");
 });
@@ -62,6 +68,7 @@ document.getElementById("myButton4").addEventListener("click", function() {
     showCarousel("mySection4");
 });
 
+// função para esconder o carrosel caso ja esteja nele e ocorra um novo clique
 
 function showCarousel(carouselId) {
     var x = document.getElementById(carouselId);

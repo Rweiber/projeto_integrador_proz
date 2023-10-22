@@ -2,7 +2,8 @@ body {
     margin: 0 auto;
     font-weight: bold; /* deixa o texto em negrito */
     font-family: 'Roboto', sans-serif;
-    background-color: #dddada
+    background-color: #dddada;
+    min-height: 100%;
 }
 .topper {
     height: 90%;
@@ -54,7 +55,7 @@ header {
   }
 
   @media screen and (max-width :700px) {
-    nav {
+    header nav {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
@@ -63,7 +64,7 @@ header {
   }
 
   @media screen and (max-width :375px) {
-    nav {
+    header nav {
       font-size: 7px;
       
     }
@@ -216,4 +217,5 @@ footer li {
   width: 30px;
 }
 
+  
   
