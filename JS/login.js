@@ -50,6 +50,7 @@ function logar(){
     } else {
       alert('Email ou senha incorretos!');
     }
+    window.location.href = "/HTML/exerciciosForca.html";
   }
 }
 
