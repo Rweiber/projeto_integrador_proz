@@ -1,3 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.btn-enviar {
+  display: flex;
+  justify-content: center;
+  align-items:  center ;
+  padding: 0 auto;
+}
+
 .foco {
   display: flex;
   justify-content: center;
@@ -7,8 +18,8 @@
 
 @media screen and (max-width :390px) {
   .foco { 
-    height: 100px; 
-    flex-direction: inherit;
+    height: 80px; 
+    
   } 
   
 }
@@ -16,9 +27,16 @@
 .container {
   display: flex;
   justify-content: center;
-  height: 68vh;
+  height: 62vh;
   align-items: stretch;
 
+}
+
+@media screen and (max-height :390px) {
+  .container { 
+    height :62vh; 
+  } 
+  
 }
 
 input[type="radio"] {
@@ -26,12 +44,12 @@ input[type="radio"] {
   left: -9999px;
 }
 
-h2 {
+/* h2 {
   text-align: center;
   font-size: 60px;
   margin-bottom: 0;
   
-}
+} */
 
 /* formulário geral */
 
@@ -126,7 +144,6 @@ h2 {
   
 }
 
-/*--------@medias --------*/
 
 @media screen and (max-width :2000px) { 
   
@@ -148,6 +165,13 @@ h2 {
   } 
 }
 
+@media screen and (max-width :600px) {
+  .carousel1 { 
+    width :85%; 
+  } 
+  
+}
+
 
 @media screen and (max-width :390px) {
   .carousel1 { 
@@ -155,6 +179,8 @@ h2 {
   } 
   
 }
+
+
 
     /* -------@medias -------*/
 
@@ -216,6 +242,20 @@ h2 {
   .carousel2 { 
     width :40%; 
   } 
+}
+
+@media screen and (max-width :1400px) { 
+  
+  .carousel2 { 
+    width :50%; 
+  } 
+}
+
+@media screen and (max-width :600px) {
+  .carousel2 { 
+    width :85%; 
+  } 
+  
 }
 
 @media screen and (max-width :390px) {
@@ -292,6 +332,27 @@ h2 {
   margin-bottom: 40px;
 }
 
+@media screen and (max-width :2000px) { 
+    
+  .carousel3 { 
+    width :40%; 
+  } 
+}
+
+@media screen and (max-width :1400px) { 
+  
+  .carousel3 { 
+    width :50%; 
+  } 
+}
+
+@media screen and (max-width :600px) {
+  .carousel3 { 
+    width :85%; 
+  } 
+  
+}
+
 @media screen and (max-width :390px) {
   .carousel3 { 
     width :95%; 
@@ -361,6 +422,27 @@ h2 {
   margin-bottom: 40px;
 }
 
+@media screen and (max-width :2000px) { 
+    
+  .carousel4 { 
+    width :40%; 
+  } 
+}
+
+@media screen and (max-width :1400px) { 
+  
+  .carousel4 { 
+    width :50%; 
+  } 
+}
+
+@media screen and (max-width :600px) {
+  .carousel4 { 
+    width :85%; 
+  } 
+  
+}
+
 @media screen and (max-width :390px) {
   .carousel4 { 
     width :95%; 
@@ -426,6 +508,20 @@ h2 {
 
 /* estilos de botoes */
 
+.enviarTreinos {
+  color: #302b24;
+  width: 170px;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 8px;
+  border: 1px solid #302b24;
+}
+
+.env button:hover {
+  border: 2px solid #FFD43B;
+  box-shadow: 0px 0px 100px rgba(255, 212, 59, 0.5), 0px 0px 50px rgba(255, 102, 0, 0.5);
+}
+
 section button {
     width: 170px; 
     height: 25px; 
@@ -439,9 +535,8 @@ section button {
     border-width: 1.5px;
     
 }
-#enviarTreinos{
-  background-color: #0e1013;
-}
+
+
 
 #myButton {
   border-radius: 0.8rem 0 0 0.8rem;
@@ -477,7 +572,7 @@ section button {
 
 #myButton2 {
   margin-left: -4px;
-  border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0.8rem;
 }
 
 #myButton4 {
@@ -507,12 +602,12 @@ div button {
   width: 5px;
   border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
   transition: all 0.2s ease-in-out;
-  margin-right: 2px;
+  margin-right: 5px;
   height: 5px;
   text-align: center;
   line-height: 0.5px;
   font-size: 20px;
-  padding-right: 25px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -540,7 +635,7 @@ div button:hover {
   font-size: 20px;
 }
 
-@media  (max-width :390px) {
+@media  (max-width :600px) {
   div button { 
     width :20px; 
     padding: 0.8rem;
@@ -560,11 +655,11 @@ div input:focus {
 }
 
 
-h3 {
+/* h3 {
   margin-left: 128px;
   margin-top: 5px;
   margin-bottom: 5px;
-}
+} */
 
 div .quantidade {
   margin-bottom: 5px;

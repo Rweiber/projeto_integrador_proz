@@ -217,5 +217,10 @@ footer li {
   width: 30px;
 }
 
+.icone-footer {
+  display: flex;
+  gap: 30px;
+}
+
   
   
