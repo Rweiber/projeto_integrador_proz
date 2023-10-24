@@ -16,7 +16,9 @@ Nosso projeto tera como cliente as academias que quiserem sair frente e proporci
 # CREDITOS
 
 Nosso projeto foi montado em equipe para o projetor integrador da PROZ EDUCAÇÃO, o integrantes são:
+
 #https://github.com/Rweiber - RENAN WEIBER
 
 #https://github.com/Brenner-07 - LUCIANO BRENNER
+
 # PROJETO_INTEGRADOR
