@@ -572,7 +572,7 @@ section button {
 
 #myButton2 {
   margin-left: -4px;
-  border-radius: 0 0 0 0.8rem;
+  border-radius: 0 0 0 0;
 }
 
 #myButton4 {
@@ -584,6 +584,10 @@ section button {
   #myButton4 {
     border-radius: 0 0 0.8rem 0;
     margin-left: -4px;
+}
+#myButton2 {
+  
+  border-radius: 0 0 0 0.8rem;
 }
 }
 
