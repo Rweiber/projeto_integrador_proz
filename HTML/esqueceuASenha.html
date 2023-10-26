@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/CSS/base.css">
         <link rel="stylesheet" href="/CSS/esqueceuASenha.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
         <title>Esqueceu a senha?</title>
 
         <script src="/JS/login.js" defer></script>
@@ -23,16 +26,14 @@
             <br>
             <label for="email"></label>
             <input type="text" placeholder="Digite seu email" id="recEmail">
-            <br>
-            <br>
+            
             <label for="nSenha"></label>
             <input type="password" placeholder="Digite uma nova senha" id="nSenha">
-            <br>
-            <br>
+           
             <label for="cNSenha"></label>
             <input type="password" placeholder="Confirme a nova senha" id="cNSenha">
             <br>
-            <a class="recuperar"><button onclick="recupSenha()">Salvar</button></a>
+            <a id="recuperar"><button onclick="recupSenha()">Salvar</button></a>
         </div>
       </form>
     </main>
@@ -67,7 +68,7 @@
     <div class="main_footer_copy">
         <div class="content2">
             <p class="by"><i class="icon icon-heart-3"></i> GYM HELP - 2023    <a href="#" title="Luciano Brenner, Rafaela Oliveira e Rennan"></a></p>
-            <p class="m-b-footer"> Desenvolvido por: Luciano Brenner, Rafaela Oliveira e Renan Weiber - todos os direitos reservados.</p> 
+            <p class="m-b-footer"> By: Renan Weiber e Luciano Brenner - todos os direitos reservados.</p> 
         </div>
     </div>    
 </body>
