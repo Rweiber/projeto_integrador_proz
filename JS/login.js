@@ -2,20 +2,26 @@
 
 document.querySelector('form').addEventListener('submit', function(event) {
   event.preventDefault();
-
+  logar();
 }); 
 
   bdLogin = [
     {
-      nome: 'luciano',
+      nome: 'Luciano',
       email: 'luciano@teste.com',
       senha: '123'
     },
     {
-      nome: 'fulano',
-      email: 'fulano@teste.com',
+      nome: 'Renan',
+      email: 'renan@teste.com',
       senha: '123'
-  }];
+    },
+    {
+      nome: 'usuarioteste',
+      email: 'usuario@teste.com',
+      senha: '123'
+    }
+  ];
 
   bdTreino = [];
 
