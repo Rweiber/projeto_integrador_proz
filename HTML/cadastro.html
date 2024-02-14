@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/cadastro2.css">
+    <link rel="stylesheet" href="/CSS/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="/js/login.js" defer></script>
+    <title>Tela 2</title>
+</head>
+<body>
+    <div class="topper">
+        <header>
+            <img class="logo-gif" src="/img/gym_help2.gif">
+            <br>
+            <a href="/HTML/index.html"><button>Home</button></a>
+        </header>
+    </div>   
+    <main class="container">
+        <div class="bem-vindo">
+            <h1> B E M V I N D O</h1>
+            <a href="/HTML/login.html"><button>Entrar</button></a>
+            
+           
+        </div>
+        
+        <div class="criar-conta">
+            <h1>CRIAR CONTA</h1>
+            <div class="criar-conta-icones">
+                <button class="botoes-conta"><img src="/img/botao_linkedin2.png"></button>
+                <button class="botoes-conta"><img src="/img/botao_face3.png"></button>
+                <button class="botoes-conta"><img src="/img/botao_insta3.png"></button>
+            </div>
+            <h3>Ou cadastre-se</h3>
+
+            <form class="cadastro-usuario" action="/PHP/cadastro.php" method="post">
+                <label for="nome"></label>
+                <input type="text" id="cadNome" placeholder="Nome" name="nome" class="input-form">
+                <br>
+                <label for="email"></label>
+                <input type="email" id="cadEmail" placeholder="Email" class="input-form">
+                <br>
+                <label for="senha"></label>
+                <input type="password" id="cadSenha" placeholder="Senha" class="input-form">
+                <br>
+                <label for="confirmar-senha"></label>
+                <input type="password" id="confirmar-senha" placeholder="Confirmar Senha" class="input-form">           
+            </form>
+            <button type="submit"  class="enviar" >Enviar</button>
+
+        </div>
+        
+        
+    </main>
+    <footer class="main_footer ">
+        <div class="content">
+            <div class="colfooter c1">
+                <h2 class="titleFooter">Menu</h2>
+                <ul>
+                  <li><a href="#" title="Página Inícial">Inicio</a></li>
+                  <li><a href="/HTML/sobre.html" title="Sobre a Empresa">Sobre a Empresa</a></li>
+                  <!-- <li><a href="#" title="Galeria de Fotos">Galeria de Fotos</a></li>
+                  <li><a href="#" title="Fale Conosco">Fale Conosco</a></li> -->
+                </ul>
+            </div><!--Col Footer 1-->        
+            <div class="colfooter c2">
+               <h2 class="titleFooter">Contato</h2>
+               <p><i class="icon icon-mail"></i> contato@gymhelp.com.br</p>
+               <p><i class="icon icon-phone"></i> 00 90000-0000</p>
+               <p><i class="icon icon-whatsapp"></i> 00 90000-0000</p>
+            </div><!--Col Footer 2-->
+            <div id="icones-redes-sociais">
+                <h2 class="titleFooter">Redes Sociais</h2>
+                <a class="icones-redes-sociais" href="https://pt-br.facebook.com/"><button><img src="/img/botao_face3.png"></button></a>
+                <a class="icones-redes-sociais" href="https://www.instagram.com/"><button><img src="/img/botao_insta3.png"></button></a>
+                <a class="icones-redes-sociais"href="https://www.youtube.com/"><button><img src="/img/botao_ytube3.png"></button></a>
+            
+            </div>
+            
+        </div><!--Contant-->
+        
+    </footer>       
+    <div class="main_footer_copy">
+        <div class="content2">
+            <p class="by"><i class="icon icon-heart-3"></i> GYM HELP - 2023 <a href="#" title="Brenner e Rennan"></a></p>
+            <p class="m-b-footer"> By: Renan Weiber e Luciano Brenner - todos os direitos reservados.</p> 
+        </div>
+    </div>
+</body>

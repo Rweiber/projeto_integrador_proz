@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/base.css">
+        <link rel="stylesheet" href="/CSS/esqueceuASenha.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+        <title>Esqueceu a senha?</title>
+
+        <script src="/JS/login.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img class="logo-gif" src="/img/gym_help2.gif">
+            <br>
+            <a href="/HTML/index.html"><button>Home</button></a>
+            
+        </header>
+        <main>
+      <form id="rSenha">
+        <div class="recuperar">
+            <h1>Recuperar Conta</h1>
+            <br>
+            <label for="email"></label>
+            <input type="text" placeholder="Digite seu email" id="recEmail">
+            
+            <label for="nSenha"></label>
+            <input type="password" placeholder="Digite uma nova senha" id="nSenha">
+           
+            <label for="cNSenha"></label>
+            <input type="password" placeholder="Confirme a nova senha" id="cNSenha">
+            <br>
+            <a id="recuperar"><button onclick="recupSenha()">Salvar</button></a>
+        </div>
+      </form>
+    </main>
+    <footer class="main_footer ">
+        <div class="content">
+            <div class="colfooter c1">
+                <h2 class="titleFooter">Menu</h2>
+                <ul>
+                  <li><a href="#" title="Página Inícial">Inicio</a></li>
+                  <li><a href="/HTML/sobre.html" title="Sobre a Empresa">Sobre a Empresa</a></li>
+                  <!-- <li><a href="#" title="Galeria de Fotos">Galeria de Fotos</a></li>
+                  <li><a href="#" title="Fale Conosco">Fale Conosco</a></li> -->
+                </ul>
+            </div><!--Col Footer 1-->        
+            <div class="colfooter c2">
+               <h2 class="titleFooter">Contato</h2>
+               <p><i class="icon icon-mail"></i> contato@gymhelp.com.br</p>
+               <p><i class="icon icon-phone"></i> 00 90000-0000</p>
+               <p><i class="icon icon-whatsapp"></i> 00 90000-0000</p>
+            </div><!--Col Footer 2-->
+            <div id="icones-redes-sociais">
+                <h2 class="titleFooter">Redes Sociais</h2>
+                <a class="icones-redes-sociais" href="https://pt-br.facebook.com/"><button><img src="/img/botao_face3.png"></button></a>
+                <a class="icones-redes-sociais" href="https://www.instagram.com/"><button><img src="/img/botao_insta3.png"></button></a>
+                <a class="icones-redes-sociais"href="https://www.youtube.com/"><button><img src="/img/botao_ytube3.png"></button></a>
+            
+            </div>
+            
+        </div><!--Contant-->
+        
+    </footer>       
+    <div class="main_footer_copy">
+        <div class="content2">
+            <p class="by"><i class="icon icon-heart-3"></i> GYM HELP - 2023    <a href="#" title="Luciano Brenner, Rafaela Oliveira e Rennan"></a></p>
+            <p class="m-b-footer"> By: Renan Weiber e Luciano Brenner - todos os direitos reservados.</p> 
+        </div>
+    </div>    
+</body>
+</html>
