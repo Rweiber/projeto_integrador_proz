@@ -1,0 +1,94 @@
+
+
+/*-------------- corpo ----------------*/
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 30%;
+  height: 43vh;
+  background: linear-gradient(to top, #ffffff, #ebeaea);
+  text-align: center;
+  color: #302b24;  
+  margin-top: 10px;
+}
+
+@media screen and (max-width :900px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width :450px) {
+  .container {
+    width: 90%;
+  }
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+.center button {
+  display: block;
+    background: none;
+    padding: auto;
+    margin: auto;
+    width: 100px; 
+    height: 25px; 
+    font-size: 15px; 
+    font-weight: bold; 
+    color: #302b24;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4); 
+    border:outset #302b24;
+    border-width: 1.5px;
+    margin-bottom: 20px;
+ 
+   }
+button:hover {
+  background: #ffbd59;
+    cursor: pointer;
+    transition: 0.5s;
+}
+h1 {
+  text-align: center;
+  margin-top: 3.5rem;
+}
+input {
+  width: 80%;
+  height: 25px;
+  color: #302b24;
+  border: 1 solid #fffefe;
+  display: block;
+  margin: 10px auto;
+}
+
+@media screen and (max-width :900px) {
+  input {
+    width: 200px;
+    height: 20px;
+    
+  }
+}
+input:focus{
+  background: #ffbd59;
+}
+::placeholder {
+  color: #302b24;
+}
+ /* Define o estilo dos botões quando o mouse passa sobre eles */
+button:hover {
+  background: #ffbd59;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.id {
+  color: #302b24;
+}
+a {
+  text-decoration: none;
+  color: #302b24;
+}

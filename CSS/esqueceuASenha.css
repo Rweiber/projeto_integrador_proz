@@ -1,0 +1,61 @@
+
+/*------------ corpo ---------------*/
+.recuperar {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(to top, #ffffff, #ebeaea);
+  padding-bottom: 20px;
+  text-align: center;
+  color: #302b24;
+}
+
+@media screen and (max-width :900px) {
+  .recuperar {
+    width: 90%;
+    
+    
+  }
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+#recuperar button:hover {
+  background: #ffbd59;
+  cursor: pointer;
+  transition: 0.5s;
+}
+h1 {
+  text-align: center;
+  margin-top: 8rem;
+}
+input {
+  width: 80%;
+  height: 25px;
+  color: #302b24;
+  border: 1 solid #fffefe;
+  display: block;
+  margin: 10px auto;
+}
+.recuperar input:focus {
+  background: #ffbd59;
+}
+::placeholder {
+  color: #302b24;
+}
+.recuperar button {
+  padding: 5 auto ;
+  background: none;
+  margin: auto;
+  width: 100px; 
+  height: 25px; 
+  font-size: 15px; 
+  font-weight: bold; 
+  border-radius: 50px; 
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.4); 
+  border:outset #302b24;
+  border-width: 1.5px;
+}

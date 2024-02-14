@@ -1,0 +1,25 @@
+html {
+    min-height: 100%;
+    background-size: cover;
+  }
+  
+  
+  MAIN {
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+    width: 100%;
+  }
+ 
+  
+.sobre {
+    background: linear-gradient(to top, #ffffff, #ebeaea);
+    padding: 0px 40px 40px;
+    flex-direction: column;
+    text-align: flex-start;
+    margin: 0 20px; /* Ajuste o valor de acordo com o espaço desejado */
+    transition: all 0.8s ease; /* Adiciona uma transição suave a todas as propriedades */
+    color: #302b24;
+    width: 80%;
+}
+  
