@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/base.css">
+    <link rel="stylesheet" href="/CSS/exerciciosForça.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="/JS/exerciciosForca.js" defer></script>
+    <script src="/JS/login.js" defer></script>
+    <title>Tela 3</title>
+</head>
+<body>
+    <header>
+        <img class="logo-gif" src="/img/gym_help2.gif" autoplay muted loop></video>
+        <nav>
+            <a href="index.html"><button class="home">Voltar</button></a>
+            <a href="fluxo.html"><button class="home">Fluxo</button></a>
+        </nav>
+    </header>
+    <nav class="foco">
+        <section class="musc1">
+            <button id="myButton"> COSTAS E BICEPS</button>
+            <button id="myButton2"> PEITO E TRICEPS</button>
+        </section>
+        <section class="musc2">
+            <button id="myButton3"> OMBRO E ABDOMEN</button>
+            <button id="myButton4"> PERNAS</button>
+        </section>
+    </nav>
+
+    
+    <form class="">
+    <main class="container">
+                <!-- COSTAS E BÍCEPS -->
+                <section id="mySection" class="carousel1" style="display: none;">
+                    <input type="radio" name="carousel1" id="carousel1" checked />
+                    <input type="radio" name="carousel1" id="carousel2" />
+                    <input type="radio" name="carousel1" id="carousel3" />
+                    <input type="radio" name="carousel1" id="carousel4" />
+                
+                    <main class="carousel__stage">
+                        <aside class="carousel__item">
+                            
+                                <div class="org">
+                                    <div class="item-content">
+                                        <img class="carousel__image" src="/img/rosca-biceps-martelo-com-halte-unscreen.gif" />
+                                    </div>
+                                    <div class="controls">
+                                        <div class="control-group">
+                                            <div>
+                                                <label>SERIES</label>
+                                            </div>
+                                            <div class="quantidade">
+                                                <button type="button" class="increase-reps1">+</button>
+                                                <button type="button" class="decrease-reps1">-</button>
+                                                <input class="serRoscaBicepsMartelo" type="text" id="reps1" value="0" >
+                                            </div>
+                                            <div>
+                                                <label>REPETIÇÕES</label>
+                                            </div>  
+                                            <div class="repetir">
+                                                <button type="button" class="increase-reps1">+</button>
+                                                <button type="button" class="decrease-reps1">-</button>
+                                                <input class="repRoscaBicepsMartelo" type="text" id="reps1" value="0" readonly>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="control-group">
+                                            <div>
+                                                <label>PESO</label>                                     
+                                            </div>
+                                            <div class="carga">
+                                                <button type="button" class="increase-load1">+</button>                                    
+                                                <button type="button" class="decrease-load1">-</button>
+                                                <h5><input class="pesRoscaBicepsMartelo" type="text" id="load1" value="0" readonly>KG</h5>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            <label for="carousel2" class="carousel__next carousel__control"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel1" class="carousel__prev carousel__control"></label>
+                            <div class="org">
+                                <div class="item-content">
+                                    <img class="carousel__image" src="/img/puxada_alta_aberta.gif" />
+                                </div>
+                                <div class="controls">
+                                    <div class="control-group">
+                                        <div>
+                                            <label>SERIES</label>
+                                        </div>
+                                        <div class="quantidade">
+                                            <button type="button" class="increase-reps1">+</button>
+                                            <button type="button" class="decrease-reps1">-</button>
+                                            <input class="serPuxadaAltaAberta" type="text" id="reps1" value="0" readonly>
+                                        </div>
+                                        <div>
+                                            <label>REPETIÇÕES</label>
+                                        </div>  
+                                        <div class="repetir">
+                                            <button type="button" class="increase-reps1">+</button>
+                                            <button type="button" class="decrease-reps1">-</button>
+                                            <input class="repPuxadaAltaAberta" type="text" id="reps1" value="0" readonly>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="control-group">
+                                        <div>
+                                            <label>PESO</label>                                     
+                                        </div>
+                                        <div class="carga">
+                                            <button type="button" class="increase-load1">+</button>                                    
+                                            <button type="button" class="decrease-load1">-</button>
+                                            <h5><input class="pesPuxadaAltaAberta" type="text" id="load1" value="0" readonly>KG</h5>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <label for="carousel3" class="carousel__next carousel__control"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel2" class="carousel__prev carousel__control"></label>
+                            <div class="org">
+                                <img class="carousel__image" src="/img/remada-baixa.gif" />
+                            </div>
+                            <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES</label>
+                                    </div>
+                                    <div class="quantidade">
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serRemadaBaixa" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETIÇÕES</label>
+                                    </div>  
+                                    <div class="repetir">
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repRemadaBaixa" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO</label>                                     
+                                    </div>
+                                    <div class="carga">
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <h5><input class="pesRemadaBaixa" type="text" id="load1" value="0" readonly>KG</h5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <label for="carousel4" class="carousel__next carousel__control"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel3" class="carousel__prev carousel__control"></label>
+                            <div class="org">
+                                <img class="carousel__image" src="/img/rosca-biceps-no-cabo-unscreen.gif" />
+                            </div>
+                            <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES</label>
+                                    </div>
+                                    <div class="quantidade">
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serRoscaBicepsCabo" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETIÇÕES</label>
+                                    </div>  
+                                    <div class="repetir">
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repRoscaBicepsCabo" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO</label>                                     
+                                    </div>
+                                    <div class="carga">
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <h5><input class="pesRoscaBicepsCabo" type="text" id="load1" value="0" readonly>KG</h5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </aside>
+                    </main>
+                </section>
+
+                <!-- PEITO E TRICEPS -->
+
+                <section id="mySection2" class="carousel2" style="display: none;">
+                    <input type="radio" name="carousel2" id="carousel21" checked />
+                    <input type="radio" name="carousel2" id="carousel22" />
+                    <input type="radio" name="carousel2" id="carousel23" />
+                    <input type="radio" name="carousel2" id="carousel24" />
+                
+                    <main class="carousel__stage">
+                        <aside class="carousel__item">
+                            
+                                <div class="org">
+                                    <div class="item-content">
+                                        <img class="carousel__image" src="/img/supino-inclinado-com-barra-unscreen.gif" />
+                                    </div>
+                                    <div class="controls">
+                                        <div class="control-group">
+                                            <div>
+                                                <label>SERIES</label>
+                                            </div>
+                                            <div class="quantidade">
+                                                <button type="button" class="increase-reps1">+</button>
+                                                <button type="button" class="decrease-reps1">-</button>
+                                                <input class="serSupinoInclinadoBarra" type="text" id="reps1" value="0" readonly>
+                                            </div>
+                                            <div>
+                                                <label>REPETIÇÕES</label>
+                                            </div>  
+                                            <div class="repetir">
+                                                <button type="button" class="increase-reps1">+</button>
+                                                <button type="button" class="decrease-reps1">-</button>
+                                                <input class="repSupinoInclinadoBarra" type="text" id="reps1" value="0" readonly>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="control-group">
+                                            <div>
+                                                <label>PESO</label>                                     
+                                            </div>
+                                            <div>
+                                                <button type="button" class="increase-load1">+</button>                                    
+                                                <button type="button" class="decrease-load1">-</button>
+                                                <h5><input class="pesSupinoInclinadoBarra" type="text" id="load1" value="0" readonly>KG</h5>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            <label for="carousel22" class="carousel__next2 carousel__control2"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel21" class="carousel__prev2 carousel__control2"></label>
+                            <div class="org">
+                                <div class="item-content">
+                                    <img class="carousel__image" src="/img/supino-reto-unscreen.gif" />
+                                </div>
+                                <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serSupinoReto" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETICÕES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repSupinoReto" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesSupinoReto" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                            <label for="carousel23" class="carousel__next2 carousel__control2"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel22" class="carousel__prev2 carousel__control2"></label>
+                            <div class="org">
+                                <img class="carousel__image" src="/img/rosca-triceps-testa-deitado-no-unscreen.gif" />
+                            </div>
+                            <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serRoscaTricepsTesta" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETICÕES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repRoscaTricepsTesta" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesRoscaTricepsTesta" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <label for="carousel24" class="carousel__next2 carousel__control2"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel23" class="carousel__prev2 carousel__control2"></label>
+                            <div class="org">
+                                <img class="carousel__image" src="/img/triceps-puxada-no-pulley-com-c-unscreen.gif" />
+                            </div>
+                            <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serTricepsPuxadaPulley" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETICÕES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repTricepsPuxadaPulley" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesTricepsPuxadaPulley" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </aside>
+                    </main>
+                </section> 
+                
+                <!-- OMBRO E ABDOMEN -->
+                
+                <section id="mySection3" class="carousel3" style="display: none;">
+                    <input type="radio" name="carousel3" id="carousel31" checked />
+                    <input type="radio" name="carousel3" id="carousel32" />
+                    <input type="radio" name="carousel3" id="carousel33" />
+                    <input type="radio" name="carousel3" id="carousel34" />
+                
+                    <main class="carousel__stage">
+                        <aside class="carousel__item">
+                            
+                                <div class="org">
+                                    <div class="item-content">
+                                        <img class="carousel__image" src="/img/Desenvolvimento-arnold-unscreen.gif" />
+                                    </div>
+                                    <div class="controls">
+                                        <div class="control-group">
+                                            <div>
+                                                <label>SERIES</label>
+                                            </div>
+                                            <div class="quantidade">
+                                                <button type="button" class="increase-reps1">+</button>
+                                                <button type="button" class="decrease-reps1">-</button>
+                                                <input class="serDesenvolvimentoArnold" type="text" id="reps1" value="0" readonly>
+                                            </div>
+                                            <div>
+                                                <label>REPETIÇÕES</label>
+                                            </div>  
+                                            <div class="repetir">
+                                                <button type="button" class="increase-reps1">+</button>
+                                                <button type="button" class="decrease-reps1">-</button>
+                                                <input class="repDesenvolvimentoArnold" type="text" id="reps1" value="0" readonly>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="control-group">
+                                            <div>
+                                                <label>PESO</label>                                     
+                                            </div>
+                                            <div>
+                                                <button type="button" class="increase-load1">+</button>                                    
+                                                <button type="button" class="decrease-load1">-</button>
+                                                <h5><input class="pesDesenvolvimentoArnold" type="text" id="load1" value="0" readonly>KG</h5>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            <label for="carousel32" class="carousel__next3 carousel__control3"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel31" class="carousel__prev3 carousel__control3"></label>
+                            <div class="org">
+                                <div class="item-content">
+                                    <img class="carousel__image" src="/img/ombros-elevacao-lateral-de-omb-unscreen.gif" />
+                                </div>
+                                <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serOmbrosElevacao" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETIÇÕES</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repOmbrosElevacao" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesOmbrosElevacao" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                            <label for="carousel33" class="carousel__next3 carousel__control3"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel32" class="carousel__prev3 carousel__control3"></label>
+                            <div class="org">
+                                <img class="carousel__image" src="/img/prancha_abdominal.gif" />
+                            </div>
+                            <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serPranchaAbdominal" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETICÕES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repPranchaAbdominal" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesPranchaAbdominal" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <label for="carousel34" class="carousel__next3 carousel__control3"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel33" class="carousel__prev3 carousel__control3"></label>
+                            <div class="org">
+                                <img class="carousel__image" src="/img/abdominal-obliquo-lateral-no-s-unscreen.gif" />
+                            </div>
+                            <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serAbdominalObliquo" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETICÕES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repAbdominalObliquo" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesAbdominalObliquo" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </aside>
+                    </main>
+                </section> 
+
+
+                <!-- PERNAS -->
+                
+                <section id="mySection4" class="carousel4" style="display: none;">
+                    <input type="radio" name="carousel4" id="carousel41" checked />
+                    <input type="radio" name="carousel4" id="carousel42" />
+                    <input type="radio" name="carousel4" id="carousel43" />
+                    <input type="radio" name="carousel4" id="carousel44" />
+                
+                    <main class="carousel__stage">
+                        <aside class="carousel__item">
+                            <div class="org">
+                                <div class="item-content">
+                                    <img class="carousel__image" src="/img/agachamento-com-barra-unscreen.gif" />
+                                </div>
+                                <div class="controls">
+                                    <div class="control-group">
+                                        <div>
+                                            <label>SERIES</label>
+                                        </div>
+                                        <div class="quantidade">
+                                            <button type="button" class="increase-reps1">+</button>
+                                            <button type="button" class="decrease-reps1">-</button>
+                                            <input class="serAgachamentoBarra" type="text" id="reps1" value="0" readonly>
+                                        </div>
+                                        <div>
+                                            <label>REPETIÇÕES</label>
+                                        </div>  
+                                        <div class="repetir">
+                                            <button type="button" class="increase-reps1">+</button>
+                                            <button type="button" class="decrease-reps1">-</button>
+                                            <input class="repAgachamentoBarra" type="text" id="reps1" value="0" readonly>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="control-group">
+                                        <div>
+                                            <label>PESO</label>                                     
+                                        </div>
+                                        <div>
+                                            <button type="button" class="increase-load1">+</button>                                    
+                                            <button type="button" class="decrease-load1">-</button>
+                                            <h5><input class="pesAgachamentoBarra" type="text" id="load1" value="0" readonly>KG</h5>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <label for="carousel42" class="carousel__next4 carousel__control4"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel41" class="carousel__prev4 carousel__control4"></label>
+                            <div class="org">
+                                <div class="item-content">
+                                    <img class="carousel__image" src="/img/elevacao-pelvica-unscreen.gif" />
+                                </div>
+                                <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serElevacaoPelvica" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETICÕES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repElevacaoPelvica" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesElevacaoPelvica" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            </div>
+                            <label for="carousel43" class="carousel__next4 carousel__control4"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel42" class="carousel__prev4 carousel__control4"></label>
+                            <div class="org">
+                                <img class="carousel__image" src="/img/cadeira-extensora-extensora-unscreen1.gif" />
+                            </div>
+                            <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serCadeiraExtensora" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETICÕES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repCadeiraExtensora" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesCadeiraExtensora" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <label for="carousel44" class="carousel__next4 carousel__control4"></label>
+                        </aside>
+                    
+                        <aside class="carousel__item">
+                            <label for="carousel43" class="carousel__prev4 carousel__control4"></label>
+                            <div class="org">
+                                <img class="carousel__image" src="/img/flexora-unscreen.gif" />
+                            </div>
+                            <div class="controls">
+                                <div class="control-group">
+                                    <div>
+                                        <label>SERIES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="serFlexora" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    <div>
+                                        <label>REPETICÕES:</label>
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-reps1">+</button>
+                                        <button type="button" class="decrease-reps1">-</button>
+                                        <input class="repFlexora" type="text" id="reps1" value="0" readonly>
+                                    </div>
+                                    
+                                </div>
+                                <div class="control-group">
+                                    <div>
+                                        <label>PESO:</label>                                     
+                                    </div>
+                                    <div>
+                                        <button type="button" class="increase-load1">+</button>                                    
+                                        <button type="button" class="decrease-load1">-</button>
+                                        <H5><input class="pesFlexora" type="text" id="load1" value="0" readonly>KG</H5>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </aside>
+                    </main>
+            </section>
+        </main> 
+    </form>
+    <div class="btn-enviar">
+        <button class="enviarTreinos" type="button" onclick="cadastroTreino()">ENVIAR EXERCÍCIOS</button>
+    </div>
+
+    <footer class="main_footer">
+        <div class="content">
+            <div class="colfooter c1">
+                <h2 class="titleFooter">Menu</h2>
+                <ul>
+                  <li><a href="#" title="Página Inícial">Inicio</a></li>
+                  <li><a href="sobre.html" title="Sobre a Empresa">Sobre a Empresa</a></li>
+                  <!-- <li><a href="#" title="Galeria de Fotos">Galeria de Fotos</a></li>
+                  <li><a href="#" title="Fale Conosco">Fale Conosco</a></li> -->
+                </ul>
+            </div><!--Col Footer 1-->        
+            <div class="colfooter c2">
+               <h2 class="titleFooter">Contato</h2>
+               <p><i class="icon icon-mail"></i> contato@gymhelp.com.br</p>
+               <p><i class="icon icon-phone"></i> 00 90000-0000</p>
+               <p><i class="icon icon-whatsapp"></i> 00 90000-0000</p>
+            </div><!--Col Footer 2-->
+            <div id="icones-redes-sociais">
+                <h2 class="titleFooter">Redes Sociais</h2>
+                <div class="icone-footer">
+                    <a class="icones-redes-sociais" href="https://pt-br.facebook.com/"><button><img src="/img/botao_face3.png"></button></a>
+                    <a class="icones-redes-sociais" href="https://www.instagram.com/"><button><img src="/img/botao_insta3.png"></button></a>
+                    <a class="icones-redes-sociais"href="https://www.youtube.com/"><button><img src="/img/botao_ytube3.png"></button></a>
+                </div>
+            </div>
+        </div><!--Contant-->
+    </footer>
+    <div class="main_footer_copy" >
+        <div class="content2">
+            <p class="by"><i class="icon icon-heart-3"></i> GYM HELP - 2023    <a href="#" title="Rafaela Oliveira e Rennan"></a></p>
+            <p class="m-b-footer"> By: Renan Weiber e Luciano Brenner - todos os direitos reservados.</p> 
+        </div>
+    </div> 
+</body>
+</html>
