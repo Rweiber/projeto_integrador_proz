@@ -1,4 +1,4 @@
-# PROJETO GYM HELP - FERRAMENTA PARA MONITORAR FLUXO DE USUÁRIOS EM ACADEMIAS E AUXILIAR NOS EXERCÍCIOS DE MANEIRA PERSONALIZADA.
+# GYM HELP - FERRAMENTA PARA MONITORAR FLUXO DE USUÁRIOS EM ACADEMIAS E AUXILIAR NOS EXERCÍCIOS DE MANEIRA PERSONALIZADA.
 
 Nosso projeto visa monitorar o fluxo de usuários em determinada academia em tempo real com base nos logs de entrada e saída de cada GYM, a partir de um banco de dados, faremos a conexão do CPF do usuário com a academia que ele contratou, supondo que a mesma já tenha adquirido nossa ferramenta, assim teremos um tema personalizado com logos e paleta de cores da própria academia. Isso fara com que a academia não precise fazer um investimento maior para ter seu próprio APP.
 Também adicionaremos ferramentas para auxiliar os alunos a realizarem os exercícios, contendo: tutorial para como executar determinado exercício, controle de carga e repetições para que o usuário consiga organizar melhor seu treino e também variações de exercício que atue no mesmo grupo muscular que será treinado no dia, muito útil para quando o equipamento estiver ocupado.
@@ -18,7 +18,5 @@ Nosso projeto tera como cliente as academias que quiserem sair frente e proporci
 Nosso projeto foi montado em equipe para o projetor integrador da PROZ EDUCAÇÃO, o integrantes são:
 
 #https://github.com/Rweiber - RENAN WEIBER
-
-#https://github.com/Brenner-07 - LUCIANO BRENNER
 
 # PROJETO_INTEGRADOR
